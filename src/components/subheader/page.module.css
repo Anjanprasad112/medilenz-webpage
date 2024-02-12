@@ -1,0 +1,99 @@
+.SubHeader{
+     background-color: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Icon{
+    font-size: medium;
+}
+.ImgContainer{
+    margin-bottom: 3px;
+}
+
+.TextContainer{
+    color: var(--text);
+}
+.BoxContainer{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 4px;
+}
+.ButtonContainer{
+    padding: 1vw 0;
+}
+.Button{
+    border-radius: 8px;
+    background-color: var(--text);
+    color: var(--bg);
+    padding: 0 1vw;
+}
+
+@media screen and (max-width: 1749px ) {
+    .TextContainer{
+        font-size: x-large;
+    }
+    .Button{
+        font-size: x-large;
+    }
+    .Icon{
+        font-size:x-large;
+    }
+    
+}
+
+@media screen and (min-width: 1750px){
+    .TextContainer,.Button{
+        font-size:x-large;
+    }
+    .Icon{
+        font-size:xx-large;
+    }
+
+}
+@media screen and (max-width: 1536px) {
+        .TextContainer , .Button,.Icon{
+            font-size: larger;
+        }
+        .Icon{
+            font-size: x-large
+        }
+}
+
+@media screen and (max-width: 1280px) {
+    .TextContainer{
+        font-size: medium;
+    }
+    .Button{
+        font-size: medium;
+    }
+    .Icon{
+        font-size: large;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .TextContainer,.Button {
+        font-size: small;
+    }
+    .Icon{
+        font-size: medium;
+    }
+  }
+
+  @media  screen and (max-width: 912px) {
+    .TextContainer , .Button {
+        font-size: x-small;
+    }
+  }
+
+
+
+  @media  screen and (max-width:768px){
+    .SubHeader{
+        display: none;
+    }
+    
+  }

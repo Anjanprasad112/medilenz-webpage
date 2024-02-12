@@ -1,0 +1,119 @@
+.container{
+  background-color: var(--bg);
+  padding: 14px 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.TextContainer{
+  color: var(--text);
+}
+
+.Form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.FormInput{
+  background-color: rgba(0, 0, 0, 0.1);
+  color: var(--text);
+  border-radius: 4px;
+  border: solid 1px #fff;
+  margin-right: 5px;
+  padding: 8px 18px;
+}
+.FormInput::placeholder{
+  color: var(--text);
+}
+.Button{
+  background-color: var(--text);
+  color: var(--bg);
+  border-radius:4px;
+  border : solid 1px #fff;
+  margin-left: 5px;
+  padding: 6px;
+}
+.TextHead{
+  font-size: large;
+}
+.TextSubHead{
+  font-size: large;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+/* .container {
+  width: 100%;
+  height: auto;
+  padding: 50px 20px; 
+  background-color: #1872dd;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+}
+
+.TextContainer {
+  text-align: center; 
+  margin-bottom: 20px; 
+}
+
+.TextHead {
+  font-size: 28px;
+}
+
+.TextSubHead {
+  font-size: 18px; 
+}
+
+.FormInput {
+  width: 100%; 
+  padding: 14px; 
+  margin-bottom: 10px; 
+}
+
+.FormContainer {
+  width: 100%; 
+}
+
+.Button {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    height: 140px;
+    flex-direction: row; 
+    justify-content: space-around; 
+  }
+
+  .TextContainer {
+    text-align: left; 
+    margin-bottom: 0;
+  }
+
+  .FormInput {
+    margin-bottom: 0; 
+    margin-right: 10px; 
+  }
+
+  .Button {
+    width: auto; 
+  }
+}  */

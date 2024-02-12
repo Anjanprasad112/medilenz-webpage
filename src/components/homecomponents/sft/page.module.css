@@ -1,0 +1,23 @@
+/* page.module.css */
+.Container {
+    padding: 14px 80px;
+    background-color: var(--text);
+    width: 100%;
+    margin : 25px 0;
+}
+
+.ImageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TextContainer {
+    padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+    .TextContainer {
+        padding: 20px;
+    }
+}

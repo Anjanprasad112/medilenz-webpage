@@ -1,0 +1,50 @@
+.Images {
+    position: relative;
+    height: 600px;  
+  }
+  
+  .ImageWrapper {
+    position: relative;
+    width: 100%;
+    height: 580px;
+    /* border-radius: 0 0 50% 50%;  */
+
+  }
+  
+  .Images:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20px; 
+    background: rgba(0, 0, 0, 0.55); 
+    border-radius: 0 0 50% 50%; 
+  }
+
+  .TextOverlay {
+    position: absolute;
+    bottom: 20px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+    color: white;
+  }
+  .Text {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .Buttons {
+    display: flex;
+  }
+  
+  .Button {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .Button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }

@@ -1,0 +1,68 @@
+/* page.module.css */
+.BackgroundImage {
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/BG.jpg');
+    opacity: 0.08;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .ImageBox{
+    border-radius: 8px; 
+    width: 100%; 
+    height: 100%; 
+  }
+  .Container {
+    width: 100%;
+    padding: 14px 60px;
+  }
+  
+  .TextContainer {
+    padding: 20px;
+  }
+  
+  .ImageContainer {
+    position: relative;
+    padding-bottom: 20px; /* Add some spacing */
+    border-radius: 8px;
+  }
+  
+  .OverlayContainer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+    margin-left: 32px;
+    margin-top: 10px;
+    background-color: #fff;
+    box-shadow: 0 5px 30px 0 rgba(24, 114, 221, 0.2); 
+    border-radius: 8px;
+    padding: 2px;
+  }
+
+  .Partner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .OverlayContent {
+    padding: 2px;
+  }
+  
+  @media (max-width: 768px) {
+    .TextContainer,
+    .ImageContainer {
+      padding: 10px;
+    }
+    .OverlayContent{
+        font-size: smaller;
+    }
+    
+  }
+  

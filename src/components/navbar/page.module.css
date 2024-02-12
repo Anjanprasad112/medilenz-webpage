@@ -1,0 +1,155 @@
+.Logo {
+  color: var(--bg);
+}
+.Button {
+  text-align: center;
+  text-decoration: none;    
+  vertical-align: middle;
+  border-radius: 0.25rem;
+  border: 1px solid var(--bg);
+  color: var(--bg);
+}
+
+.Button :hover {
+  background-color: var(--bg);
+  border-color: var(--bg);
+  color: var(--text);
+}
+.SearchBox{
+    /* display: inline-block; */
+    width: 7vh;
+    height: 6vh;
+    /* font-size: 1rem; */
+    /* font-weight: 400; */
+    /* line-height: 1.5; */
+    /* text-align: center;
+    text-decoration: none;
+    vertical-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid var(--bg); 
+    border-radius: 0.25rem;
+    margin: 0 10px;
+}
+.SearchIcon{
+    font-size: x-large;
+    color: var(--bg);
+}
+/* .SearchBox:hover{
+    background-color: var(--bg);
+    box-shadow: 0 0 10px var(--bg);
+    cursor: pointer;
+    .SearchIcon{
+        color: var(--text);
+        z-index: 100;
+    }
+} */
+
+.AdminLogo{
+    color: var(--bg);
+    font-size: larger;
+    z-index: 100;
+
+}
+.Admin{
+    width: 5vh;
+    height:5vh;
+    border:1px solid var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50% 50%;
+    /* background-color: var(--bg);
+    opacity:0.3; */
+    /* margin: 1vh auto; */
+    /* margin: auto; */
+}
+
+
+.customtext{
+    color: var(--subtext);
+    font-size: medium;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.91;
+  letter-spacing: normal;
+  text-align: left;
+  margin: 0 0px;
+}
+
+.Logo{
+    font-size: large;
+    white-space: nowrap;
+    display: inline-block;
+
+}
+
+
+.customfontsize{
+    font-size:medium;
+}
+.LogoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1536px) {
+    .Logo{
+        font-size:x-large
+    }
+    .customfontsize{
+        font-size:large;
+    }
+    .customtext{
+        font-size:large;
+    }
+}
+
+@media screen and (max-width: 1225px) {
+    .Logo{
+        font-size: medium;
+    }
+    .customtext{
+        font-size: small;
+    }
+    .customfontsize{
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 1174px) {
+    .Logo{
+        font-size: small;
+    }
+    .customfontsize{
+        font-size: smaller;
+    }
+    .customtext{
+        font-size: smaller;
+    }
+  }
+
+  @media screen and (max-width:1065px){
+
+    .customtext{
+        font-size: x-small;
+    }
+  }
+@media screen and (max-width:991px){
+    .Logo{
+        font-size: large;
+    }
+    .customfontsize{
+        font-size: medium;
+    }
+    .customtext{
+        font-size: medium;
+    }
+    .Admin{
+        margin: 10px auto;
+    }
+}

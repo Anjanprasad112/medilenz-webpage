@@ -1,0 +1,30 @@
+/* CarouselMain.module.css */
+.slick-prev,
+.slick-next {
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  background-color: #007bff; /* Your button background color */
+  color: white; /* Your button text color */
+  border-radius: 50%; /* Rounded shape */
+  font-size: 20px; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1; /* Ensure buttons appear above slides */
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: #0056b3; /* Hover color */
+}
+
+.slick-prev {
+  left: 20px; /* Adjust distance from left edge */
+}
+
+.slick-next {
+  right: 20px; /* Adjust distance from right edge */
+}

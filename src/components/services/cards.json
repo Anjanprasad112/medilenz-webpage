@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "imageSrc": "/images/Services_1.jpg",
+      "title": "Medical Chronology",
+      "text": "Simplifying patient histories for informed healthcare decisions."
+    },
+    {
+      "id": 2,
+      "imageSrc": "/images/Services_2.jpg",
+      "title": "Medical Expert Services",
+      
+      "text": "Unparalleled expertise for precise healthcare solutions."
+    },
+    {
+      "id": 3,
+      "imageSrc": "/images/Services_3.jpeg",
+      "title": "Para-Legal Services +",
+     
+      "text": "Your legal support partner for streamlined solutions."
+    },
+    {
+      "id": 4,
+      "imageSrc": "/images/Services_2.jpg",
+      "title": "Life Care Plan",
+      "text": "Nurturing well-being through personalized and holistic care."
+    },
+    {
+      "id": 5,
+      "imageSrc": "/images/Services_3.jpeg",
+      "title": "Mass Tort Services",
+
+      "text": "Providing smart and effective legal assistance for class actions."
+    },
+    {
+      "id": 6,
+      "imageSrc": "/images/Services_2.jpg",
+      "title": "Special Reports",
+      "text": "Concise insights tailored for well informed decisions in healthcare."
+    }
+  ]
+  
