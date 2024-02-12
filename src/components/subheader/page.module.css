@@ -31,46 +31,43 @@
     padding: 0 1vw;
 }
 
-@media screen and (max-width: 1749px ) {
+@media screen and (max-width: 1751px ) {
     .TextContainer{
-        font-size: x-large;
+        font-size: large;
     }
     .Button{
-        font-size: x-large;
+        font-size: large;
     }
     .Icon{
-        font-size:x-large;
+        font-size:large;
     }
     
 }
 
 @media screen and (min-width: 1750px){
     .TextContainer,.Button{
-        font-size:x-large;
+        font-size: medium;
     }
     .Icon{
-        font-size:xx-large;
+        font-size:large;
     }
 
 }
 @media screen and (max-width: 1536px) {
         .TextContainer , .Button,.Icon{
-            font-size: larger;
-        }
-        .Icon{
-            font-size: x-large
+            font-size: medium;
         }
 }
 
 @media screen and (max-width: 1280px) {
     .TextContainer{
-        font-size: medium;
+        font-size: small;
     }
     .Button{
-        font-size: medium;
+        font-size: small;
     }
     .Icon{
-        font-size: large;
+        font-size: medium;
     }
 }
 

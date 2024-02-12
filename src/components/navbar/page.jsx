@@ -9,9 +9,9 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-white">
   <div className="container-fluid">
-  <Link className={`navbar-brand ${styles.LogoContainer}`} href="#">
+  <Link className={`navbar-brand ${styles.LogoContainer} `} href="#">
       <Image src="/logo.jpg" alt="Logo" width={40} height={40} className="mx-1"/>
-      <span className={styles.Logo}>MEDILENZ</span>
+      <span className="fs-20 text-sm text-md text-lg text-xl">MEDILENZ</span>
     </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>

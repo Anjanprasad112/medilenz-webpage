@@ -70,7 +70,7 @@
 
 .customtext{
     color: var(--subtext);
-    font-size: medium;
+    font-size: small;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -89,7 +89,7 @@
 
 
 .customfontsize{
-    font-size:medium;
+    font-size:small;
 }
 .LogoContainer{
     display: flex;
@@ -98,14 +98,14 @@
 }
 
 @media screen and (min-width: 1536px) {
-    .Logo{
-        font-size:x-large
-    }
-    .customfontsize{
+    /* .Logo{
         font-size:large;
+    } */
+    .customfontsize{
+        font-size:small;
     }
     .customtext{
-        font-size:large;
+        font-size:small;
     }
 }
 
@@ -139,7 +139,7 @@
         font-size: x-small;
     }
   }
-@media screen and (max-width:991px){
+/* @media screen and (max-width:991px){
     .Logo{
         font-size: large;
     }
@@ -152,4 +152,4 @@
     .Admin{
         margin: 10px auto;
     }
-}
+} */
