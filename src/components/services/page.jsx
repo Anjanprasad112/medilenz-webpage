@@ -15,11 +15,11 @@ const Service = () => {
     <div className={styles.container}>
         <div className={styles.backgroundImage}></div>
       <div>
-        <h3 className={styles.Text}>Stay updated with us</h3>
+        <h3 className={styles.Text}>Our Services</h3>
       </div>
 
       <div
-        className={`d-flex flex-wrap justify-content-center gap-4 p-4 align-items-center ${styles.Box}`}
+        className={`d-flex flex-wrap justify-content-center gap-4 align-items-center ${styles.Box}`}
       >
         {cards.map((card)=>(
         <div key={card.id}>

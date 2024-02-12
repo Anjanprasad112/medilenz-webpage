@@ -18,7 +18,7 @@ const StayUpdated = () => {
       </div>
 
       <div
-        className={`d-flex flex-wrap justify-content-center gap-4 p-4 align-items-center ${styles.Box}`}
+        className={`d-flex flex-wrap justify-content-center gap-4 align-items-center ${styles.Box}`}
       >
         {cards.map((card)=>(
         <div key={card.id}>

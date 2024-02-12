@@ -54,9 +54,16 @@
 
 .Box{
     display: flex;
+    padding: 24px;
 
 }
 
 .ButtonContainer{
     margin-bottom: 25px;
+}
+
+@media screen and (max-width:350px) {
+    .Box{
+        padding: 0px;
+    }
 }
