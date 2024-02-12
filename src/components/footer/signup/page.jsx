@@ -11,7 +11,7 @@ const SignUp = () => {
         <div className={styles.FormContainer}>
             <form className={styles.Form}>
                 <input type="email" name="email" placeholder="Enter your email" className={styles.FormInput} />
-                <div  className="btn btn-light text-primary mt-1" >Subscribe</div>
+                <div  className="btn btn-light text-primary mt-1 text-medium" >Subscribe</div>
             </form>
         </div>
     </div>
