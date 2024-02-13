@@ -83,14 +83,16 @@ const CarouselMain = ({ data }) => {
               {data.map(item => (
                 <div key={item.id} className="card border border-primary" style={{ marginRight: '20px', borderRadius: '15px' }}>
                   <div className="card-body d-flex align-items-center">
-                    <div className="rounded-circle overflow-hidden mr-3" style={{ width: '300px', height: '80px', border: '1px solid #007bff', marginRight:"5px" }}>
+                    <div className="rounded-circle overflow-hidden mr-3" style={{ width: '300px', height: '60px', border: '1px solid #007bff', marginRight:"3px" }}>
                       <Image src={item.img} alt={item.title} width={50} height={50} className="w-100 h-100 object-cover" />
                     </div>
                     <div>
-                      <h5 className="card-text">{item.title}</h5>
+                      <h5 className="card-text text-black">{item.title}</h5>
                       <p className="card-text">{item.text}</p>
                       <p className="card-text">
-                        <small className="text-muted">{item.name} <span className="font-italic">{item.nametag}</span></small>
+                        <small className="text-primary">{item.name}
+                        <span className="text-muted">{" | "}</span>
+                        <span className="font-italic text-muted">{item.nametag}</span></small>
                       </p>
                     </div>
                   </div>
