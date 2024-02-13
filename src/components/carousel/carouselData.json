@@ -2,7 +2,7 @@
 [
     {
       "id": 1,
-      "img": "/images/blog_1.jpg",
+      "img": "/blog_1.jpg",
       "title": "Great job on this case. 👍🏻",
       "text": "“The opinion is well-written and easy to follow and provides all of the details that will allow us to move forward with the case. I will be back in touch & I will be sure to let others know as well.Thank you.”.",
       "name": "LA-Based",
@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "img": "/images/blog_2.jpg",
+      "img": "/blog_2.jpg",
       "title": "Thank you for the quick turnaround ⏳",
       "text": "Thank you for the quick turnaround and for drafting a comprehensive medical chronology.We appreciate your efforts in capturing all the injuries in detail and providing medical inputs.It helped us to understand the injuries better.",
       "name": "PA-Based",
@@ -18,7 +18,7 @@
     },
     {
       "id": 3,
-      "img": "/images/blog_3.jpeg",
+      "img": "/blog_3.jpeg",
       "title": "Title 3",
       "text": "Thank you for the quick turnaround and for drafting a comprehensive medical chronology.We appreciate your efforts in capturing all the injuries in detail and providing medical inputs.It helped us to understand the injuries better.",
       "name": "Alex Smith",

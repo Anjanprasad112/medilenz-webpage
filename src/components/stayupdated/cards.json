@@ -1,21 +1,21 @@
 [
     {
       "id": 1,
-      "imageSrc": "/images/Services_1.jpg",
+      "imageSrc": "/Services_1.jpg",
       "title": "Importance of Chronology",
       "subtitle": "Personal Injury Cases",
       "text": "Personal injury cases are complex, involving intricate medical details and documentation Among the tools available..."
     },
     {
       "id": 2,
-      "imageSrc": "/images/Services_2.jpg",
+      "imageSrc": "/Services_2.jpg",
       "title": "Life Care Plan",
       "subtitle": "For Future Healthcare Needs",
       "text": "The life care plan is a meticulously drafted comprehensive document, and it plays a crucial role in assisting attorneys..."
     },
     {
       "id": 3,
-      "imageSrc": "/images/Services_3.jpeg",
+      "imageSrc": "/Services_3.jpeg",
       "title": "Attorneys",
       "subtitle": "Chronology Helps Attorneys",
       "text": "In the dynamic and complex field of healthcare law, attorneys face an uphill task of understanding complex medical histori…"
