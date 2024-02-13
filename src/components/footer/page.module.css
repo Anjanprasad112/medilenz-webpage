@@ -1,14 +1,14 @@
 .footer {
     background-color: #f8f8f8;
     display: flex;
-    flex-direction: column; /* Change to column layout for smaller screens */
+    flex-direction: column; 
     align-items: center;
     padding: 20px;
 }
 
 .footerContent {
     padding: 10px;
-    text-align: center; /* Center align content */
+    text-align: center; 
 }
 .Logo {
     color: var(--bg);
@@ -35,8 +35,8 @@
 .socialIcons {
     display: flex;
     gap: 12px;
-    justify-content: center; /* Center align social icons */
-    margin-top: 10px; /* Add space between content and social icons */
+    justify-content: center; 
+    margin-top: 10px; 
 }
 
 .icon {
@@ -57,7 +57,7 @@
     display: flex;
     align-items: center;
     gap: 5px;
-    margin-bottom: 5px; /* Add space between box items */
+    margin-bottom: 5px; 
 }
 
 .Line {
@@ -65,12 +65,12 @@
     width: 80%;
     margin: auto;
     opacity: 0.2;
-    margin-top: 15px; /* Add margin to separate lines */
+    margin-top: 15px; 
 }
 
 @media screen and (max-width: 768px) {
     .footer {
-        padding: 20px 10px; /* Reduce padding */
+        padding: 20px 10px; 
     }
 
     .footerContent {
@@ -80,7 +80,7 @@
 
 @media screen and (max-width: 426px) {
     .footerContent {
-        padding: 5px; /* Reduce padding */
+        padding: 5px; 
     }
 
     .medium {
