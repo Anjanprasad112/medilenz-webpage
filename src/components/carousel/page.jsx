@@ -75,31 +75,27 @@ const CarouselMain = ({ data }) => {
   return (
     <div className="bg-white p-3">
       <div className="container flex align-items-center justify-content-center">
-     
-        <div className="row align-items-center">
-       
-          <div className="col">
-            <Slider {...settings}>
-              {data.map(item => (
-                <div key={item.id} className="card border border-primary" style={{ marginRight: '20px', borderRadius: '15px' }}>
-                  <div className="card-body d-flex align-items-center">
-                    <div className="rounded-circle overflow-hidden mr-3" style={{ width: '300px', height: '60px', border: '1px solid #007bff', marginRight:"3px" }}>
-                      <Image src={item.img} alt={item.title} width={50} height={50} className="w-100 h-100 object-cover" />
-                    </div>
-                    <div>
-                      <h5 className="card-text text-black">{item.title}</h5>
-                      <p className="card-text">{item.text}</p>
-                      <p className="card-text">
-                        <small className="text-primary">{item.name}
-                        <span className="text-muted">{" | "}</span>
-                        <span className="font-italic text-muted">{item.nametag}</span></small>
-                      </p>
-                    </div>
+        <div className="col">
+          <Slider {...settings}>
+            {data.map(item => (
+              <div key={item.id} className="card border border-primary mb-3" style={{ borderRadius: '15px' }}>
+                <div className="card-body d-flex flex-column  align-items-center justify-content-center">
+                  <div className="rounded-circle overflow-hidden mr-3" style={{ width: '82px', height: '82px', border: '1px solid #007bff', marginBottom:"5px" }}>
+                    <Image src={item.img} alt={item.title} width={82} height={82} className="" />
+                  </div>
+                  <div>
+                    <h5 className="card-text text-black">{item.title}</h5>
+                    <p className="card-text">{item.text}</p>
+                    <p className="card-text">
+                      <small className="text-primary">{item.name}
+                      <span className="text-muted">{" | "}</span>
+                      <span className="font-italic text-muted">{item.nametag}</span></small>
+                    </p>
                   </div>
                 </div>
-              ))}
-            </Slider>
-          </div>
+              </div>
+            ))}
+          </Slider>
         </div>
       </div>
     </div>
