@@ -30,6 +30,7 @@
 
 .medium {
     font-size: medium;
+    
 }
 
 .socialIcons {
@@ -56,6 +57,7 @@
 .Box {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 5px;
     margin-bottom: 5px; 
 }
@@ -78,9 +80,9 @@
     }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 430px) {
     .footerContent {
-        padding: 5px; 
+        padding: 5px 0; 
     }
 
     .medium {
@@ -89,5 +91,13 @@
 
     .large {
         font-size: medium;
+    }
+    .footer{
+        padding:20px 5px;
+    }
+}
+@media screen and (max-width:328px){
+    .Box{
+        gap: 0;
     }
 }

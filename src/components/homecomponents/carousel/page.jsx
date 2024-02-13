@@ -3,11 +3,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import Image from "next/image";
 import styles from "./page.module.css";
-// autoPlay infiniteLoop
 const CarouselComponent = () => {
   return (
     <div>
-      <Carousel showThumbs={false} showArrows={false} showStatus={false}>
+      <Carousel showThumbs={false} showArrows={false} showStatus={false} autoPlay infiniteLoop>
         <div className={styles.Images}>
           <div className={styles.BG}></div>
 
@@ -46,7 +45,7 @@ const CarouselComponent = () => {
           <div className={styles.BG}></div>
           <div className={styles.ImageWrapper}>
             <Image
-              src="/About_1.jpg"
+              src="/Header_1.jpg"
               alt="image2"
               fill
               style={{ objectFit: "cover" }}

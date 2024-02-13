@@ -79,9 +79,13 @@ function Footer() {
           />
           <span className={styles.medium}>MEDILENZ</span>
         </div>
+
         <div className={`${styles.text} ${styles.medium}`}>
         ⓒ 2024. All Rights Reserved. Privacy Policy.
         </div>
+
+        
+
         <div>
             <FaFacebookF className={styles.Logo}/>
         </div>
