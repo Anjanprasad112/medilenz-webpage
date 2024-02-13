@@ -31,8 +31,8 @@ function Footer() {
               We @ Medilenz
             </p>
             <p className={`${styles.text} ${styles.medium}`}>
-              Our team is comprised of doctors, each possessing <br />
-              more than a decade of clinical experience in various <br />
+              Our team is comprised of doctors, each possessing 
+              more than a decade of clinical experience in various
               specialities. Our doctors are from India and abroad.
             </p>
             {/* <p className={`${styles.text} ${styles.medium}`}>

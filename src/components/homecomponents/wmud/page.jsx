@@ -14,9 +14,9 @@ const Diff = () => {
             Qualified and Experienced Medical Professionals
           </div>
           <div className={styles.TextContainer}>
-            We have a team of highly qualified and <br />
-            experienced healthcare professionals <br />
-            who can review records of all <br />
+            We have a team of highly qualified and
+            experienced healthcare professionals 
+            who can review records of all 
             medical specialties.
           </div>
         </div>
@@ -29,9 +29,9 @@ const Diff = () => {
             Qualified and Experienced Medical Professionals
           </div>
           <div className={styles.TextContainer}>
-            We have a team of highly qualified and <br />
-            experienced healthcare professionals <br />
-            who can review records of all <br />
+            We have a team of highly qualified and 
+            experienced healthcare professionals 
+            who can review records of all
             medical specialties.
           </div>
         </div>
@@ -44,9 +44,9 @@ const Diff = () => {
             Qualified and Experienced Medical Professionals
           </div>
           <div className={styles.TextContainer}>
-            We have a team of highly qualified and <br />
-            experienced healthcare professionals <br />
-            who can review records of all <br />
+            We have a team of highly qualified and 
+            experienced healthcare professionals
+            who can review records of all
             medical specialties.
           </div>
         </div>
