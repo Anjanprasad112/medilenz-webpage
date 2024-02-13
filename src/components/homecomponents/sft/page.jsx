@@ -6,7 +6,7 @@ const SecureFile = () => {
     <div className={`${styles.Container} container-fluid`}>
         <div className={`row align-items-center justify-content-center`}>
             <div className={`col-md-6 ${styles.ImageContainer}`}>
-                <Image src="/FTP.jpg" alt="ftp" width={300} height={300}/>
+                <Image src="/FTP.jpg" alt="ftp" width={400} height={400}/>
             </div>
             <div className={`col-md-6 ${styles.TextContainer}`}>
                 <h2>Secure File Transfer</h2>
