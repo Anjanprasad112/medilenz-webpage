@@ -1,6 +1,9 @@
 import styles from "./page.module.css";
 import { FaPeopleGroup } from "react-icons/fa6";
-
+// import { FaUserMd } from 'react-icons/fa';
+// import { FiLightbulb } from 'react-icons/fi';
+import { GiArtificialIntelligence } from "react-icons/gi";
+import { BsCalendar2Week } from "react-icons/bs";
 const Diff = () => {
   return (
     <div className="container">
@@ -23,7 +26,7 @@ const Diff = () => {
 
         <div className={`col-md-4 col-sm-6 ${styles.BoxContainer}`}>
           <div className={styles.LogoContainer}>
-            <FaPeopleGroup size={25} style={{ color: "#0D6FED" }} />
+            <GiArtificialIntelligence size={25} style={{ color: "#0D6FED" }} />
           </div>
           <div className={styles.TextHeader}>
           AI-Enabled proprietary software
@@ -39,7 +42,7 @@ and Expert Opinions.
 
         <div className={`col-md-4 col-sm-6 ${styles.BoxContainer}`}>
           <div className={styles.LogoContainer}>
-            <FaPeopleGroup size={25} style={{ color: "#0D6FED" }} />
+            <BsCalendar2Week size={25} style={{ color: "#0D6FED" }} />
           </div>
           <div className={styles.TextHeader}>
           One-week delivery service

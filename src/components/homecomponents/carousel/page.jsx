@@ -7,7 +7,7 @@ import styles from './page.module.css';
 const CarouselComponent = () => {
   return (
     <div>
-        <Carousel showThumbs={false} autoPlay>
+        <Carousel showThumbs={false} autoPlay infiniteLoop>
             <div className={styles.Images}>
                 <div className={styles.ImageWrapper}>
                     <Image src="/Header_1.jpg" alt="image" fill style={{objectFit: "cover"}} />
