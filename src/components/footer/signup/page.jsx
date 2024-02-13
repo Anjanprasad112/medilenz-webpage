@@ -6,7 +6,7 @@ const SignUp = () => {
     <div className={styles.container}>
         <div className={styles.TextContainer}>
             <p className={styles.TextHead}>Join our newsletter</p>
-            <p className={styles.TextSubHead}>Enter your email address to receive up-to-date news and other usefull information,delivered right to your inbox</p>
+            <p className={styles.TextSubHead}>Enter your email address to receive up-to-date news and other usefull information, delivered right to your inbox</p>
         </div>
         <div className={styles.FormContainer}>
             <form className={styles.Form}>

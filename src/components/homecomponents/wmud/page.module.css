@@ -49,3 +49,9 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width:420px){
+  .Container{
+  padding: 14px 40px;
+  }
+}

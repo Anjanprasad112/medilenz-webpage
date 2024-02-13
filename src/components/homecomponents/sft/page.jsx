@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 const SecureFile = () => {
   return (
-    <div className={`${styles.Container} container-fluid`}>
-        <div className={`row align-items-center justify-content-center`}>
+    <div className={`${styles.Container}`}>
+        <div className={`row align-items-center justify-content-evenly`}>
             <div className={`col-md-6 ${styles.ImageContainer}`}>
-                <Image src="/FTP.jpg" alt="ftp" width={300} height={200}/>
+                <Image src="/FTP.jpg" alt="ftp" fill />
             </div>
             <div className={`col-md-6 ${styles.TextContainer}`}>
                 <h2>Secure File Transfer</h2>
