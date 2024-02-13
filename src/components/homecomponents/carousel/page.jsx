@@ -46,7 +46,7 @@ const CarouselComponent = () => {
           <div className={styles.BG}></div>
           <div className={styles.ImageWrapper}>
             <Image
-              src="/Header_1.jpg"
+              src="/Partner_1.jpg"
               alt="image2"
               fill
               style={{ objectFit: "cover" }}
