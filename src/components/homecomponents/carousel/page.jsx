@@ -10,7 +10,7 @@ const CarouselComponent = () => {
         <Carousel showThumbs={false} autoPlay>
             <div className={styles.Images}>
                 <div className={styles.ImageWrapper}>
-                    <Image src="/images/Header_1.jpg" alt="image" fill style={{objectFit: "cover"}} />
+                    <Image src="/Header_1.jpg" alt="image" fill style={{objectFit: "cover"}} />
                     <div className={styles.TextOverlay}>
                     <p className={styles.Text}>Our services include medical education</p>
                         <div className={styles.Buttons}>
@@ -22,7 +22,7 @@ const CarouselComponent = () => {
             </div>
             <div className={styles.Images}>
                 <div className={styles.ImageWrapper}>
-                    <Image src="/images/About_1.jpg" alt="image2" fill style={{objectFit: "cover"}} />
+                    <Image src="/About_1.jpg" alt="image2" fill style={{objectFit: "cover"}} />
                 </div>
             </div>
         </Carousel>

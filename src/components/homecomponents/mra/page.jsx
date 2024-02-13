@@ -22,7 +22,7 @@ const RecordAnalysis = () => {
             <div className={`col-auto ${styles.ImageContainer}`}>
               
               <Image
-                src="/images/Services_3.jpeg"
+                src="/Services_3.jpeg"
                 alt="Images"
                 className={styles.ImageBox}
                 width={300} 
