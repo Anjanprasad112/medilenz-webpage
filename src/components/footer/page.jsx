@@ -1,5 +1,4 @@
-import styles from "./page.module.css"; // Import CSS file
-
+import styles from "./page.module.css"; 
 import { FaInstagram, FaTwitter, FaLinkedin, FaYoutube ,FaFacebookF } from "react-icons/fa";
 import { BsTelephone } from "react-icons/bs";
 import { TfiLocationPin } from "react-icons/tfi";
@@ -12,38 +11,16 @@ function Footer() {
     <> 
     <SignUp/>
       <div className={styles.footer}>
-        {/* <div className={styles.footerContent}>
-                    <ul>
-                        <p className={`${styles.text} ${styles.bold} ${styles.large}`}>
-                            Stream<span className={styles.blue}>line</span>
-                        </p>
-                        <div className={styles.socialIcons}>
-                            <FaInstagram className={styles.icon} />
-                            <FaTwitter className={styles.icon} />
-                            <FaLinkedin className={styles.icon} />
-                            <FaYoutube className={styles.icon} />
-                        </div>
-                    </ul>
-                </div> */}
         <div className={styles.footerContent}>
           <div className={styles.list}>
             <p className={`${styles.text} ${styles.bold} ${styles.medium}`}>
               We @ Medilenz
             </p>
-            <p className={`${styles.text} ${styles.medium}`}>
+            <p className={`${styles.text} ${styles.content} ${styles.medium}`}>
               Our team is comprised of doctors, each possessing 
               more than a decade of clinical experience in various
               specialities. Our doctors are from India and abroad.
             </p>
-            {/* <p className={`${styles.text} ${styles.medium}`}>
-                            Futures & Options
-                        </p>
-                        <p className={`${styles.text} ${styles.medium}`}>
-                            Mutual Funds
-                        </p>
-                        <p className={`${styles.text} ${styles.medium}`}>
-                            Fixed deposits
-                        </p> */}
           </div>
         </div>
         <div className={styles.footerContent}>
