@@ -24,7 +24,7 @@ const Service = () => {
         {cards.map((card)=>(
         <div key={card.id}>
           <div
-            className="card flex justify-content-center align-items-center border border-primary"
+            className="card flex justify-content-center align-items-center "
             style={{ width: "20rem" }}
           >
             <Image
