@@ -60,7 +60,7 @@ const CarouselMain = ({ data }) => {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 576,
+        breakpoint: 769,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -78,16 +78,16 @@ const CarouselMain = ({ data }) => {
         <div className="col">
           <Slider {...settings}>
             {data.map(item => (
-              <div key={item.id} className="card border border-primary mb-3" style={{ borderRadius: '15px' }}>
+              <div key={item.id} className="card border border-primary border-1 rounded mb-3" style={{ borderRadius: '15px' }}>
                 <div className="card-body d-flex flex-column  align-items-center justify-content-center">
                   <div className="rounded-circle overflow-hidden mr-3" style={{ width: '82px', height: '82px', border: '1px solid #007bff', marginBottom:"5px" }}>
                     <Image src={item.img} alt={item.title} width={82} height={82} className="" />
                   </div>
                   <div>
-                    <h5 className="card-text text-black">{item.title}</h5>
-                    <p className="card-text">{item.text}</p>
+                    <h5 className="card-text text-black" style={{ fontSize: '1.1rem' }}>{item.title}</h5>
+                    <p className="card-text" style={{ fontSize: '0.85rem' }}>{item.text}</p>
                     <p className="card-text">
-                      <small className="text-primary">{item.name}
+                      <small className="text-primary" >{item.name}
                       <span className="text-muted">{" | "}</span>
                       <span className="font-italic text-muted">{item.nametag}</span></small>
                     </p>
