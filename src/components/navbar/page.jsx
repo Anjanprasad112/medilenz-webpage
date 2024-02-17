@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-white">
   <div className="container-fluid">
-  <Link className={`navbar-brand ${styles.LogoContainer} `} href="#">
+  <Link className={`navbar-brand ${styles.LogoContainer} `} href="/">
       <Image src="/logo.jpg" alt="Logo" width={40} height={40} className="mx-1"/>
       <span className="fs-20 text-sm text-md text-lg text-xl">MEDILENZ</span>
     </Link>
@@ -27,8 +27,8 @@ const Navbar = () => {
             ABOUT
           </Link>
           <ul className="dropdown-menu">
-            <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }}  href="#">Action</Link></li>
-            <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }}  href="#">Another action</Link></li>
+            <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }}  href="/about">About Us</Link></li>
+            {/* <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }}  href="#">Another action</Link></li> */}
             {/* <li><hr className="dropdown-divider"/></li> */}
             {/* <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }} href="#">Something else here</Link></li> */}
           </ul>
