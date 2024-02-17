@@ -110,6 +110,18 @@
     }
   }
   
+@media screen and (max-width: 480px) {
+.Images{
+  height: 480px;
+}
+.ImageWrapper{
+  height:460px;
+}
+.BG{
+  height: 96%;
+}
+}
+
 @media screen and (max-width: 325px) {
     .Button{
       margin: 10px 1px;
