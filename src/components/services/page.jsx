@@ -35,8 +35,6 @@ const Service = () => {
               height={200}
             />
             <div className="card-body">
-              
-              {/* <h6 className="card-subtitle mb-2 text-muted">{card.subtitle}</h6> */}
               <h5 className="card-title">{card.title}</h5>
               <p className="card-text">
                {card.text}

@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "imageSrc": "/Services_1.jpg",
+      "title": "Hanan Delvi",
+      "text": "Chief Commercial Officer"
+    },
+    {
+      "id": 2,
+      "imageSrc": "/Services_2.jpg",
+      "title": "Seema Patil",
+      "text": "Director"
+    },
+    {
+      "id": 3,
+      "imageSrc": "/Services_3.jpeg",
+      "title": "Karthik Rangappa",
+     
+      "text": "Cheif of Education"
+    },
+    
+    {
+      "id": 4,
+      "imageSrc": "/Services_3.jpeg",
+      "title": "Member Name",
+     
+      "text": "Member Designation"
+    },
+    {
+      "id": 5,
+      "imageSrc": "/Services_3.jpeg",
+      "title": "Member Name",
+     
+      "text": "Member Designation"
+    },
+    {
+      "id": 6,
+      "imageSrc": "/Services_3.jpeg",
+      "title": "Member Name",
+     
+      "text": "Member Designation"
+    }
+  ]
+  

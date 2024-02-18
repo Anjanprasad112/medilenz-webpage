@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "imageSrc": "/Services_1.jpg",
+      "title": "Rachel Shapiro Esq.",
+      "text": "Co-Founder & President"
+    },
+    {
+      "id": 2,
+      "imageSrc": "/Services_2.jpg",
+      "title": "Dr.Badari Narayan",
+      
+      "text": "Founder & CEO"
+    },
+    {
+      "id": 3,
+      "imageSrc": "/Services_3.jpeg",
+      "title": "Ravi Kumar L",
+     
+      "text": "Chief Technology Officer"
+    }
+  ]
+  

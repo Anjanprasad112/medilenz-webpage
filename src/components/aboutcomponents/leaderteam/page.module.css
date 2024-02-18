@@ -1,0 +1,80 @@
+.Button{
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--text);
+    padding: 8px 12px;
+    background-color: var(--bg);
+    margin: 25px;
+    border-radius: 8px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content : center;
+    margin-top: 20px;
+    position: relative;
+
+}
+.backgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/BG.jpg');
+    opacity: 0.08; 
+    z-index: -1;    
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Text{
+    padding : 20px 0px;
+    font-size: xx-large;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+.Background{
+    background-color:#fad8b9;
+    width: 235px;
+    height: 150px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.Box{
+    display: flex;
+    padding: 20px;
+
+}
+
+.ButtonContainer{
+    margin: 20px;
+}
+
+.Social{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Logo{
+    color: var(--bg);
+    font-size: large;
+}
+
+@media screen and (max-width:360px) {
+    .Box{
+        padding:10px 0px;
+    }
+}
