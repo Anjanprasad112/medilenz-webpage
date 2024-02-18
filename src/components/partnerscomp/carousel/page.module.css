@@ -49,7 +49,7 @@
   border-radius: 16px;
   flex-direction: column;
   align-items: center;
-  width: calc(100% - 20px); /* Adjust the width to fit within the container */
+  width: calc(100% - 20px);
 }
 
 .Image {
