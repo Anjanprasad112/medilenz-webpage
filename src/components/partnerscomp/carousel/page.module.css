@@ -35,12 +35,15 @@
 .Slider {
   padding: 30px 20px;
   background-color: #fff;
-  box-shadow: 0 5px 30px 0 rgba(24, 114, 221, 0.2);
+  /* box-shadow: 0 5px 30px 0 rgba(24, 114, 221, 0.2); */
   overflow: hidden; /* Hide the horizontal scrollbar */
 }
 
 .ImageContainer {
-  box-shadow: 0 0 0 1px var(--bg);
+  /* box-shadow: 0 0 0 1.5px var(--bg); */
+  box-shadow: 0 5px 10px 0 rgba(24, 114, 221, 0.2);
+  background-color: #fff;
+
   margin: 10px;
   display: flex;
   border-radius: 16px;
