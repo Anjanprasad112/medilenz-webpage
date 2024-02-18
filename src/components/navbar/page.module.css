@@ -139,6 +139,14 @@
         font-size: x-small;
     }
   }
+  @media screen and (max-width:990px) {
+    .customtext{
+        font-size:medium;
+    } 
+    .customfontsize{
+        font-size: medium;
+    }
+  }
 /* @media screen and (max-width:991px){
     .Logo{
         font-size: large;
