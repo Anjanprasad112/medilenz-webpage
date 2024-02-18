@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "logoSrc": "/dummylogo.jpg",
+      "name": "Company 1"
+    },
+    {
+      "id": 2,
+      "logoSrc": "/dummylogo.jpg",
+      "name": "Company 2"
+    },
+    {
+      "id": 3,
+      "logoSrc": "/dummylogo.jpg",
+      "name": "Company 3"
+    },
+    {
+      "id": 4,
+      "logoSrc": "/dummylogo.jpg",
+      "name": "Company 4"
+    },
+    {
+      "id": 5,
+      "logoSrc": "/dummylogo.jpg",
+      "name": "Company 5"
+    },
+    {
+      "id": 6,
+      "logoSrc": "/dummylogo.jpg",
+      "name": "Company 6"
+    }
+  ]
+  
