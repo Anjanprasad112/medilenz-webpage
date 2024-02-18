@@ -91,9 +91,13 @@
     .Container {
       flex-direction: column;
     }
+    .Title{
+      text-align: center;
+    }
   
     .ImageContainer {
       width: 50%;
+      height: 50%;
     }
     .TextContainer{
         width: 100%;
@@ -106,3 +110,10 @@
     }
   }
   
+
+  @media screen and (max-width:480px) {
+    .ImageContainer{
+      width: 100%;
+    }
+    
+  }
