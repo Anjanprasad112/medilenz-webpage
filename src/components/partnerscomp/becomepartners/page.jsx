@@ -1,9 +1,7 @@
-import styles from './page.module.css';
-
-const BecomePartners = () => {
+const page = () => {
   return (
-    <div>BecomePartners</div>
+    <div>page</div>
   )
 }
 
-export default BecomePartners
+export default page
