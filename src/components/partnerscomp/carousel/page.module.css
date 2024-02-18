@@ -40,8 +40,8 @@
 }
 
 .ImageContainer {
-  /* box-shadow: 0 0 0 1.5px var(--bg); */
-  box-shadow: 0 5px 10px 0 rgba(24, 114, 221, 0.2);
+  box-shadow: 0 0 0 1.5px var(--bg);
+  /* box-shadow: 0 5px 10px 0 rgba(24, 114, 221, 0.2); */
   background-color: #fff;
 
   margin: 10px;
