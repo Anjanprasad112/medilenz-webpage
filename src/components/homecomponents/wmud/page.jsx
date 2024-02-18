@@ -6,7 +6,7 @@ import { GiArtificialIntelligence } from "react-icons/gi";
 import { BsCalendar2Week } from "react-icons/bs";
 const Diff = () => {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <h3 className={styles.Header}>What makes us different</h3>
       <div className={`row justify-content-center ${styles.Container}`}>
         <div className={`col-md-4 col-sm-6 ${styles.BoxContainer}`}>
