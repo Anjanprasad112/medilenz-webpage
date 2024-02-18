@@ -27,7 +27,7 @@ const Navbar = () => {
             ABOUT
           </Link>
           <ul className="dropdown-menu">
-            <li><Link className="dropdown-item" style={{ fontSize: '0.9rem' }}  href="/about">About Us</Link></li>
+            <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }}  href="/about">About Us</Link></li>
             {/* <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }}  href="#">Another action</Link></li> */}
             {/* <li><hr className="dropdown-divider"/></li> */}
             {/* <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }} href="#">Something else here</Link></li> */}
@@ -38,8 +38,9 @@ const Navbar = () => {
             PARTNERS
           </Link>
           <ul className="dropdown-menu">
-            <li><Link className="dropdown-item" style={{ fontSize: '0.9rem' }}  href="#">Action</Link></li>
-            <li><Link className="dropdown-item" style={{ fontSize: '0.9rem' }}  href="#">Another action</Link></li>
+            <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }}  href="/partners">Partners</Link></li>
+            <li><hr className="dropdown-divider "/></li>
+            <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }}  href="/becomepartners">Become Partners</Link></li>  
             {/* <li><hr className="dropdown-divider"/></li> */}
             {/* <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }} href="#">Something else here</Link></li> */}
           </ul>
@@ -55,9 +56,9 @@ const Navbar = () => {
           CAREERS
           </Link>
           <ul className="dropdown-menu">
-            <li><Link className="dropdown-item" style={{ fontSize: '0.9rem' }} href="#">Action</Link></li>
+            <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }} href="#">Action</Link></li>
             <li><hr className="dropdown-divider "/></li>
-            <li><Link className="dropdown-item" style={{ fontSize: '0.9rem' }} href="#">Another action</Link></li>
+            <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }} href="#">Another action</Link></li>
             {/* <li><hr className="dropdown-divider "/></li> */}
             {/* <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }} href="#">Something else here</Link></li> */}
           </ul>
