@@ -25,7 +25,7 @@ const Leader = () => {
         {cards.map((card)=>(
         <div key={card.id}>
           <div
-            className="card p-3 flex justify-content-center align-items-center "
+            className="card p-3 m-3 flex justify-content-center align-items-center"
             style={{ width: "17rem" , borderRadius:"16px" ,background : "#fff", boxShadow: "0 8px 30px 0 rgba(0, 0, 0, 0.1)",border: "none" }}
           >
             <div className={styles.Background}>
