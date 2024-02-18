@@ -1,72 +1,74 @@
 .Container {
-    padding: 5px 0px;
-    background-color: #fff;
-  }
+  padding: 5px 0px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.Subcontainer {
+  padding: 0px 80px;
+}
+
+.Title {
+  font-size: xx-large;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  text-align: center;
+  color: black;
+  text-align: center;
+}
+
+.Text {
+  font-size: large;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  text-align: center;
+  color: #707070;
+  text-align: center;
+}
+
+.Slider {
+  padding: 20px 20px;
+  background-color: #fff;
+  box-shadow: 0 5px 30px 0 rgba(24, 114, 221, 0.2);
+  overflow: hidden; /* Hide the horizontal scrollbar */
+}
+
+.ImageContainer {
+  box-shadow: 0 0 0 1px var(--bg);
+  margin: 10px;
+  display: flex;
+  border-radius: 16px;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100% - 20px); /* Adjust the width to fit within the container */
+}
+
+.Image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.CompanyName {
+  margin-top: 10px;
+  font-size: large;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
   .Subcontainer {
-    padding: 0px 80px;
+    padding: 20px 10px;
   }
-  .Title {
-    font-size: xx-large;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.63;
-    letter-spacing: normal;
-    text-align: center;
-    color: black;
-    text-align: center;
-  }
-  
-  .Text {
-    font-size: large;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.52;
-    letter-spacing: normal;
-    text-align: center;
-    color: #707070;
-    text-align: center;
-  }
-  .Slider{
-    padding:20px 20px;
-    
-    background-color: #fff;
-    box-shadow: 0 5px 30px 0 rgba(24, 114, 221, 0.2);
-  }
-  
+}
+
+@media screen and (max-width: 600px) {
   .ImageContainer {
-    box-shadow: 0 0 0 1px var(--bg);
-    margin: 10px;
-    display: flex;
-    border-radius: 16px;
-    flex-direction: column;
-    align-items: center;
-    
-  
+    margin: 5px;
+    padding: 5px;
   }
-  
-  .Image {
-    max-width: 100%;
-    max-height: 100%;
-  }
-  
-  .CompanyName {
-    margin-top: 10px;
-    font-size: large;
-    font-weight: 500;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .Subcontainer {
-      padding: 20px 10px;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .ImageContainer {
-      margin: 5px; 
-      padding: 5px;
-    }
-  }
-  
+}

@@ -15,7 +15,7 @@ client relationships, staying abreast of evolving
 healthcare regulations within the dynamic
 intersection of law and medicine.
       </div>
-      <div className="btn btn-primary text-center text-white">View Benefits</div>
+      <div className="btn btn-primary m-2 text-center text-white">View Benefits</div>
     </div>
   </div>
   )

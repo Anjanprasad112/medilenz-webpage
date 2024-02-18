@@ -1,7 +1,7 @@
 .Container{
     width: 100%;
     background-color: #f6f6f6;
-    padding:20px 60px;
+    padding:20px 40px;
     display: flex;
     justify-content:space-around;
     align-items:center;
@@ -9,7 +9,7 @@
 }
 .ImageContainer{
     border-radius: 16px;
-    width: 70%;
+    width: 50%;
     height: 200px;
     position: relative;
 }
@@ -55,7 +55,7 @@
         padding: 20px 10px;
     }
     .ImageContainer{
-        width: 60%;
+        width: 50%;
     }
     .Title{
         text-align: center;
