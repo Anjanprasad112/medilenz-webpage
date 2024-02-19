@@ -5,7 +5,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 import styles from './page.module.css';
-import jsonData from './images.json'; // Import your JSON file with company data
+import jsonData from './images.json'; 
 
 const SliderComp = () => {
   // Define your settings for the Slider

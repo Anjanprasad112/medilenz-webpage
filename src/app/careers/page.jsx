@@ -3,6 +3,7 @@ const Top = lazy(()=>import("@/components/careercomponents/Topcomp/page"));
 const Mid = lazy(()=>import("@/components/careercomponents/Midcomp/page"));
 import styles from "./page.module.css";
 import Current from "@/components/careercomponents/Openings/page";
+import Form from "@/components/careercomponents/Formcomp/page";
 
 const Carrer = () => {
   return (
@@ -15,6 +16,7 @@ const Carrer = () => {
       <Top/>
       <Mid/>
       <Current/>
+      <Form/>
     </>
   );
 };
