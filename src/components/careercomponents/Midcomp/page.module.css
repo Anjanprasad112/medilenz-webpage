@@ -1,0 +1,82 @@
+.Container{
+    width: 100%;    
+    margin : 5px 0px;
+}
+
+.Text{
+    color: #fff;
+    font-size:medium;
+    font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: center;
+}
+.SubContainer{
+    padding: 10px;
+}
+.Text{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.BG2{
+    position: absolute; 
+    left: 0;
+    width: 100%;
+    height: 125px;
+    background-image: url('/Career_2.jpg');
+    opacity: 0.8; 
+    z-index: -2;    
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.BG1{
+    position: absolute; 
+    left: 0;
+    width: 100%;
+    height: 125px;
+    background-color: black;  
+    opacity: 0.77;
+    z-index: -1;
+}
+.Box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+.BoxText{
+    border : 1px solid var(--bg);
+    border-radius: 8px;
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .Box{
+        flex-direction: column;
+        gap: 5px;
+    }
+    .Text{
+        width: 90%;
+    }
+    .BG1,.BG2{
+        height: 45%;
+    }
+}
+
+@media screen and (max-width:455px) {
+    .BG1,.BG2{
+        height: 51%;
+    }
+    .Text{
+        width: 95%;
+    }
+    .SubContainer{
+        padding:0px;
+    }
+}

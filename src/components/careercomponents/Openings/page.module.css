@@ -1,0 +1,16 @@
+.Container{
+    margin-top: 15px;
+    background-color: #f6f6f6;
+    width: 100%;
+}
+
+.Title{
+    font-size: xx-large;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}

@@ -44,7 +44,7 @@ const Register =  () =>{
             <label className="form-check-label px-1 text-sm-center" htmlFor="robotCheck">Receive up-to-date news & other information, delivered right to your inbox.</label>
           </div>
           <div className="w-75">
-            <p className="text-center">Already have an account ? <a href="/login">Sign In Now!</a></p>
+            <p className="text-center">Already have an account ? <a href="/login" className="text-primary">Sign In Now!</a></p>
           </div>
           <button type="submit" className="btn btn-primary w-30 m-2">Register</button>
         </form>

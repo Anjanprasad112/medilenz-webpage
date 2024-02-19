@@ -80,7 +80,7 @@ const CarouselMain = ({ data }) => {
             {data.map(item => (
               <div key={item.id} className="card border border-primary border-1 rounded mb-3" style={{ borderRadius: '15px' }}>
                 <div className="card-body d-flex flex-column  align-items-center justify-content-center">
-                  <div className="rounded-circle overflow-hidden mr-3" style={{ width: '82px', height: '82px', border: '1px solid #007bff', marginBottom:"5px" }}>
+                  <div className="rounded-circle overflow-hidden mr-3" style={{ width: '82px', height: '82px', border: '1.5px solid var(--bg)', marginBottom:"5px" }}>
                     <Image src={item.img} alt={item.title} width={82} height={82} className="" />
                   </div>
                   <div>

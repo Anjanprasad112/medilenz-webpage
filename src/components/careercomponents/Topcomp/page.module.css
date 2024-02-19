@@ -1,0 +1,58 @@
+.ImageContainer{
+    position: relative;
+    height:150px;
+    width: 60%;
+    
+}
+.Container{
+    padding : 5px 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.Img{
+    object-fit: cover;
+    border-radius: 16px;
+}
+.Title{
+    font-size: x-large;
+    font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  padding: 5px;
+}
+
+.Text{
+    font-size: medium;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+
+@media screen and (max-width : 768px){
+    .Container{
+        flex-direction: column;
+        padding: 5px 20px;
+    }
+}
+
+@media screen and (max-width :568px){
+    .Title{
+        font-size: large;
+        text-align: center;
+    }
+    .Text{
+        font-size: medium;
+        text-align: center;
+    }
+}

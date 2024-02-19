@@ -25,8 +25,8 @@ const Login = () => {
             <label className="form-check-label px-1" htmlFor="robotCheck">I&apos;m not a robot</label>
           </div>
           <div className="w-75">
-            <p className="text-center">Don&apos;t have an account? <a href="/register">Register Now!</a></p>
-            <p className="text-center"><a href="/forgot-password">Forgot Password?</a></p>
+            <p className="text-center">Don&apos;t have an account? <a href="/register" className="text-primary">Register Now!</a></p>
+            <p className="text-center text-primary"><a href="/forgot-password">Forgot Password?</a></p>
           </div>
           <button type="submit" className="btn btn-primary w-30 m-2">Sign in</button>
         </form>
