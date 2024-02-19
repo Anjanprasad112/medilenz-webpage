@@ -1,6 +1,6 @@
 "use client";
-import styles from "./page.module.css";
 import { useEffect, useState } from "react";
+import styles from "./page.module.css";
 import cardsData from "./cards.json";
 import { FaRocket, FaCar, FaBiking, FaBicycle } from "react-icons/fa";
 
