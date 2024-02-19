@@ -3,8 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Force = () => {
   return (
-    <div className={styles.Main}>
+    
     <div className={styles.Container}>
+        <div className={styles.Main}></div>
         <div className={styles.BG}></div>
         <div className={styles.Header}>Join forces with us</div>
         <form>
@@ -36,8 +37,7 @@ const Force = () => {
             </div>
         </form>
     </div>
-    </div>
   )
 }
 
-export default Force
+export default Force;
