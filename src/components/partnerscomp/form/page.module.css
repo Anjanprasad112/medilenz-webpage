@@ -27,3 +27,8 @@
     text-align: center;
     margin: auto;
 }
+.Main{
+    width: 100%;
+    background-color: #f6f6f6;
+    z-index: -100;
+}
