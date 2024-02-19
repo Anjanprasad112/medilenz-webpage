@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 import cardsData from "./cards.json";
 import { FaRocket, FaCar, FaBiking, FaBicycle } from "react-icons/fa";
 
-const page = () => {
+const Part = () => {
   const [cards, setCards] = useState([]);
 
   useEffect(() => {
@@ -52,4 +52,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Part;
