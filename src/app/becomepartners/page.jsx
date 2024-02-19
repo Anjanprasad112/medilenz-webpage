@@ -1,6 +1,7 @@
 import {lazy, Suspense} from 'react';
 import styles from './page.module.css';
 const BecomePartners = lazy(() => import("@/components/partnerscomp/becomepartners/page"));
+const Force = lazy(() => import("@/components/partnerscomp/form/page"));
 const page = () => {
   return (
     <>
@@ -10,6 +11,7 @@ const page = () => {
         <p className={styles.Para}>Preferential Partnership Models</p>
       </div>
       <BecomePartners/>
+      <Force/>
     </>
   )
 }

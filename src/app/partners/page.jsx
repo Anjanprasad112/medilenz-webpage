@@ -3,6 +3,7 @@ const SliderComp = lazy(() => import("@/components/partnerscomp/carousel/page"))
 import styles from "./page.module.css";
 const Partenrs = lazy(()=>import("@/components/partnerscomp/partners/page"));
 
+
 const page = () => {
   return (
     <>

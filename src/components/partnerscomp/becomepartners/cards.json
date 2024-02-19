@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "imageSrc": "/Services_1.jpg",
+      "title": "EXPRESS DELIVERY",
+      "text": "We have a special 1 week delivery service for our premium customers,and the services are provided at a special discount.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "icon" : "rocket"
+    },
+    {
+      "id": 2,
+      "imageSrc": "/Services_2.jpg",
+      "title": "PLATINUM PARTNERS",
+      
+      "text": "100K pages or more per month.$23 per hour with 2-4 days delivery. Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "icon" : "car"
+    },
+    {
+      "id": 3,
+      "imageSrc": "/Services_3.jpeg",
+      "title": "PREMIUM PARTNERS",
+     
+      "text": "50K pages or more per month.$26 per hour with 1-week delivery.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "icon" : "bike"
+    },
+    {
+        "id": 4,
+        "imageSrc": "/Services_3.jpeg",
+        "title": "STANDARD PARTNERS",
+       
+        "text": "25K pages or more per month.$30 per hour with a maximum of 2 weeks delivery. Lorem Ipsum is simply dummy text of. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "icon" : "cycle"
+      }
+  ]
+  
