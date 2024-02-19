@@ -64,7 +64,7 @@ const Navbar = () => {
           </ul>
         </li>
         <li className="nav-item">
-          <Link className={`nav-link ${styles.customtext}`} href="#">CONTACT</Link>
+          <Link className={`nav-link ${styles.customtext}`} href="contactus">CONTACT</Link>
         </li>
         
       </ul>

@@ -1,0 +1,56 @@
+.Container{
+    width: 100%;
+    background-color:#fff;
+    padding: 20px 80px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+}   
+
+.SubContainer{
+    background-color:#fff;
+    border:  1.5px solid var(--bg);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 240px;
+    height:180px;
+}
+
+.Logo{
+    color: var(--bg);
+    font-size:x-large;
+}
+.Title{
+    font-size: larger;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+
+.Text{
+    font-size: medium;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: center;
+  color: #707070;
+}
+
+
+@media screen and (max-width:768px){
+    .Container{
+        flex-direction: column;
+        padding: 15px 10px;
+    }
+}
