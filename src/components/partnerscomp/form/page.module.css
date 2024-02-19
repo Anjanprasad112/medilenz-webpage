@@ -15,7 +15,7 @@
     width: 100%;
     height: 100%;
     background-image: url('/BG.jpg');
-    opacity: 0.11; 
+    opacity: 0.111; 
     z-index: -1;    
     background-size: cover; 
     background-repeat: no-repeat;
