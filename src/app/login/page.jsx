@@ -20,9 +20,9 @@ const Login = () => {
           <div className="form-group w-50 m-1">
             <input type="password" className="form-control" id="password" placeholder="Password" />
           </div>
-          <div className="form-check-inline mb-3 w-75 m-1">
-            <input type="checkbox" className="form-check-input text-center" id="robotCheck" />
-            <label className="form-check-label text-center" htmlFor="robotCheck">I&apos;m not a robot</label>
+          <div className="form-check-inline mb-3 w-75 m-1 text-center">
+            <input type="checkbox" className="form-check-input px-1" id="robotCheck" />
+            <label className="form-check-label px-1" htmlFor="robotCheck">I&apos;m not a robot</label>
           </div>
           <div className="w-75">
             <p className="text-center">Don&apos;t have an account? <a href="/register">Register Now!</a></p>
