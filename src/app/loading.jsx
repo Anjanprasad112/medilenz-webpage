@@ -1,6 +1,9 @@
+import Image from 'next/image';
 const loading = () => {
   return (
-    <div>loading</div>
+    <div className="text-center mx-auto">
+      <Image src='/loading.gif' width={200} height={200} alt="loading" />
+    </div>
   )
 }
 
