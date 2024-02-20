@@ -57,10 +57,10 @@ const Navbar = () => {
           </Link>
           <ul className="dropdown-menu">
             <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }} href="/careers">Careers</Link></li>
-            {/* <li><hr className="dropdown-divider "/></li> */}
-            {/* <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }} href="#">Another action</Link></li> */}
-            {/* <li><hr className="dropdown-divider "/></li> */}
-            {/* <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }} href="#">Something else here</Link></li> */}
+            <li><hr className="dropdown-divider "/></li>
+            <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }} href="/blog">Blog</Link></li>
+            <li><hr className="dropdown-divider "/></li>
+            <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }} href="newsgallery">News & Gallery</Link></li>
           </ul>
         </li>
         <li className="nav-item">
