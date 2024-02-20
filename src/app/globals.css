@@ -12,7 +12,8 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  /* font-family: 'Lato'; */
+  /* font-family: 'Lato'; , Arial, sans-serif*/
+  font-family: Helvetica;
   scroll-behavior: smooth;
   user-select: none;
 }

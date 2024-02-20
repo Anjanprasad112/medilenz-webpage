@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 import { useEffect, useState } from "react";
 import cardsData from "./cards.json";
 
-const Service = () => {
+const Services = () => {
 
   const [cards, setCards] = useState([]);
 
@@ -26,13 +26,13 @@ const Service = () => {
         <div key={card.id}>
           <div
             className="card flex justify-content-center align-items-center "
-            style={{ width: "20rem",borderRadius:"16px",boxShadow:"0 8px 30px 0 rgba(0, 0, 0, 0.1)" }}
+            style={{ width: "20rem",boxShadow:"0 8px 30px 0 rgba(0, 0, 0, 0.1)",borderRadius:"16px" }}
           >
             <Image
               src={card.imageSrc}
               className="card-img-top"
               alt="Service Image"
-              style={{borderRadius:"16px 16px 0px 0px"}}
+              style={{borderRadius : "16px 16px 0px 0px"}}
               width={300}
               height={200}
             />
@@ -42,7 +42,7 @@ const Service = () => {
                {card.text}
               </p>
               <a href="#" className="btn btn-primary">
-                Read More
+                View Service
               </a>
             </div>
           </div>
@@ -50,11 +50,11 @@ const Service = () => {
       ))}
       </div>
 
-      <div className={styles.ButtonContainer}>
+      {/* <div className={styles.ButtonContainer}>
         <div className="btn btn-primary">Additional Services</div>
-      </div>
+      </div> */}
     </div>
   );
 };
 
-export default Service;
+export default Services;

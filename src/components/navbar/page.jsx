@@ -19,11 +19,11 @@ const Navbar = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className={`nav-link ${styles.customtext}`} aria-current="page" href="/">HOME</Link>
+          <Link className={`nav-link ${styles.customtext}`} style={{ fontSize: '0.8rem' }} aria-current="page" href="/">HOME</Link>
         </li>
        
         <li className="nav-item dropdown">
-          <Link className={`nav-link dropdown-toggle ${styles.customtext}`} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <Link className={`nav-link dropdown-toggle ${styles.customtext}`} style={{ fontSize: '0.8rem' }} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             ABOUT
           </Link>
           <ul className="dropdown-menu">
@@ -34,7 +34,7 @@ const Navbar = () => {
           </ul>
         </li>
         <li className="nav-item dropdown">
-          <Link className={`nav-link dropdown-toggle ${styles.customtext}`} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <Link className={`nav-link dropdown-toggle ${styles.customtext}`} style={{ fontSize: '0.8rem' }} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             PARTNERS
           </Link>
           <ul className="dropdown-menu">
@@ -46,13 +46,13 @@ const Navbar = () => {
           </ul>
         </li>
         <li className="nav-item">
-          <Link className={`nav-link ${styles.customtext}`} href="#">SERVICES</Link>
+          <Link className={`nav-link ${styles.customtext}`} style={{ fontSize: '0.8rem' }} href="/services">SERVICES</Link>
         </li>
         <li className="nav-item">
-          <Link className={`nav-link ${styles.customtext}`} href="#">UPLOAD FILE</Link>
+          <Link className={`nav-link ${styles.customtext}`} style={{ fontSize: '0.8rem' }} href="#">UPLOADFILE</Link>
         </li>
         <li className="nav-item dropdown">
-          <Link className={`nav-link dropdown-toggle ${styles.customtext}`} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <Link className={`nav-link dropdown-toggle ${styles.customtext}`} style={{ fontSize: '0.8rem' }} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           CAREERS
           </Link>
           <ul className="dropdown-menu">
@@ -64,7 +64,7 @@ const Navbar = () => {
           </ul>
         </li>
         <li className="nav-item">
-          <Link className={`nav-link ${styles.customtext}`} href="contactus">CONTACT</Link>
+          <Link className={`nav-link ${styles.customtext}`} style={{ fontSize: '0.8rem' }} href="contactus">CONTACT</Link>
         </li>
         
       </ul>
@@ -84,4 +84,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;

@@ -1,20 +1,4 @@
-.Logo {
-  color: var(--bg);
-}
-.Button {
-  text-align: center;
-  text-decoration: none;    
-  vertical-align: middle;
-  border-radius: 0.25rem;
-  border: 1px solid var(--bg);
-  color: var(--bg);
-}
 
-.Button :hover {
-  background-color: var(--bg);
-  border-color: var(--bg);
-  color: var(--text);
-}
 .SearchBox{
     /* display: inline-block; */
     width: 7vh;
@@ -34,22 +18,13 @@
     margin: 0 10px;
 }
 .SearchIcon{
-    font-size: x-large;
+    font-size: medium;
     color: var(--bg);
 }
-/* .SearchBox:hover{
-    background-color: var(--bg);
-    box-shadow: 0 0 10px var(--bg);
-    cursor: pointer;
-    .SearchIcon{
-        color: var(--text);
-        z-index: 100;
-    }
-} */
 
 .AdminLogo{
     color: var(--bg);
-    font-size: larger;
+    font-size: medium;
     z-index: 100;
 
 }
@@ -61,16 +36,11 @@
     align-items: center;
     justify-content: center;
     border-radius: 50% 50%;
-    /* background-color: var(--bg);
-    opacity:0.3; */
-    /* margin: 1vh auto; */
-    /* margin: auto; */
 }
 
 
 .customtext{
     color: var(--subtext);
-    font-size: small;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -78,6 +48,7 @@
   letter-spacing: normal;
   text-align: left;
   margin: 0 0px;
+  /* white-space: nowrap; */
 }
 
 .Logo{
@@ -97,39 +68,34 @@
     justify-content: center;
 }
 
-@media screen and (min-width: 1536px) {
-    /* .Logo{
-        font-size:large;
-    } */
+/* @media screen and (min-width: 1536px) {
+   
     .customfontsize{
-        font-size:small;
+        font-size:medium;
     }
     .customtext{
         font-size:small;
     }
-}
+} */
 
-@media screen and (max-width: 1225px) {
+/* @media screen and (min-width: 990px) {
+    .customtext{
+        font-size: xx-small;
+    }
+    .customfontsize{
+        font-size: smaller;
+    }
+} */
+
+/* @media screen and (max-width: 1174px) {
     .Logo{
+        font-size: small;
+    }
+    .customfontsize{
+        font-size: smaller;
+    }
+    .customtext{
         font-size: medium;
-    }
-    .customtext{
-        font-size: small;
-    }
-    .customfontsize{
-        font-size: small;
-    }
-}
-
-@media screen and (max-width: 1174px) {
-    .Logo{
-        font-size: small;
-    }
-    .customfontsize{
-        font-size: smaller;
-    }
-    .customtext{
-        font-size: smaller;
     }
   }
 
@@ -146,7 +112,7 @@
     .customfontsize{
         font-size: medium;
     }
-  }
+  } */
 /* @media screen and (max-width:991px){
     .Logo{
         font-size: large;
