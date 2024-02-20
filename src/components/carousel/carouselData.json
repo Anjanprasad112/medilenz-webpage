@@ -2,7 +2,7 @@
   {
     "id": 1,
     "img": "/Blog_1.jpg",
-    "title": "Great job on this case. 👍🏻",
+    "title": "Title 1",
     "text": "The opinion is well-written and easy to follow and provides all of the details that will allow us to move forward with the case. I will be back in touch & I will be sure to let others know as well.Thank you.",
     "name": "LA-Based",
     "nametag": "Medmal Law Firm"
@@ -10,8 +10,8 @@
   {
     "id": 2,
     "img": "/Blog_2.jpg",
-    "title": "Thank you for the quick turnaround ⏳",
-    "text": "Thank you for the quick turnaround and for drafting a comprehensive medical chronology.We appreciate your efforts in capturing all the injuries in detail and providing medical inputs.It helped us to understand the injuries better.",
+    "title": "Title 2",
+    "text": "The opinion is well-written and easy to follow and provides all of the details that will allow us to move forward with the case. I will be back in touch & I will be sure to let others know as well.Thank you.",
     "name": "PA-Based",
     "nametag": "Law Firm"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "img": "/Blog_3.jpeg",
     "title": "Title 3",
-    "text": "Thank you for the quick turnaround and for drafting a comprehensive medical chronology.We appreciate your efforts in capturing all the injuries in detail and providing medical inputs.It helped us to understand the injuries better.",
+    "text": "The opinion is well-written and easy to follow and provides all of the details that will allow us to move forward with the case. I will be back in touch & I will be sure to let others know as well.Thank you.",
     "name": "Alex Smith",
     "nametag": "@alexsmith"
   }
