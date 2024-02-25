@@ -3,7 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import Image from "next/image";
 import styles from "./page.module.css";
-// 
+
 const CarouselComponent = () => {
   return (
     <div>
@@ -16,7 +16,7 @@ const CarouselComponent = () => {
               src="/Header_1.jpg"
               alt="image"
               fill
-              style={{ objectFit: "cover" }}
+              style={{ objectFit: "fill" }}
             />
             <div className={styles.TextOverlay}>
               <p className={styles.Text}>
@@ -46,10 +46,10 @@ const CarouselComponent = () => {
           <div className={styles.BG}></div>
           <div className={styles.ImageWrapper}>
             <Image
-              src="/Partner_1.jpg"
+              src="/Header_1.jpg"
               alt="image2"
               fill
-              style={{ objectFit: "cover" }}
+              style={{ objectFit: "fill" }}
             />
                     <div className={styles.TextOverlay}>
               <p className={styles.Text}>
