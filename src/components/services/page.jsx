@@ -26,7 +26,7 @@ const Service = () => {
         <div key={card.id}>
           <div
             className="card flex justify-content-center align-items-center "
-            style={{ width: "350px",margin:"8px",borderRadius:"16px",boxShadow:"0 8px 30px 0 rgba(0, 0, 0, 0.1)" }}
+            style={{ width: "350px",margin:"10px 12px 10px 12px",borderRadius:"16px",boxShadow:"0 8px 30px 0 rgba(0, 0, 0, 0.1)" }}
           >
             <Image
               src={card.imageSrc}
