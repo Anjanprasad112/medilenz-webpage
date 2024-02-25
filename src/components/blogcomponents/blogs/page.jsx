@@ -3,9 +3,11 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import { useEffect, useState } from "react";
 import cardsData from "./cards.json";
+import Link from "next/link";
+import { usePathname } from 'next/navigation';
 
 const BlogPage = () => {
-
+  const pathname = usePathname();
   const [cards, setCards] = useState([]);
 
   useEffect(() => {
@@ -39,9 +41,9 @@ const BlogPage = () => {
               <p className="card-text">
                {card.text}
               </p>
-              <a href="#" className="btn btn-primary">
+              <Link href={`/blog/${card.id}`} as={`/blog/${card.id}`}  className="btn btn-primary">
                 Read More
-              </a>
+              </Link>
             </div>
           </div>
         </div>

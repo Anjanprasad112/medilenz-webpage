@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import { useEffect, useState } from "react";
 import cardsData from "./cards.json";
+import Link from "next/link";
 
 const Services = () => {
 
@@ -41,9 +42,9 @@ const Services = () => {
               <p className="card-text">
                {card.text}
               </p>
-              <a href="#" className="btn btn-primary">
+              <Link href={`/services/${card.id}`} className="btn btn-primary">
                 View Service
-              </a>
+              </Link>
             </div>
           </div>
         </div>
