@@ -26,7 +26,7 @@ const Service = () => {
         <div key={card.id}>
           <div
             className="card flex justify-content-center align-items-center "
-            style={{ width: "20em",margin:"4px",borderRadius:"16px",boxShadow:"0 8px 30px 0 rgba(0, 0, 0, 0.1)" }}
+            style={{ width: "310px",margin:"8px",borderRadius:"16px",boxShadow:"0 8px 30px 0 rgba(0, 0, 0, 0.1)" }}
           >
             <Image
               src={card.imageSrc}
@@ -37,13 +37,13 @@ const Service = () => {
               height={200}
             />
             <div className="card-body">
-              <h5 className="card-title">{card.title}</h5>
-              <p className="card-text">
+              <h5 className="card-title text-center">{card.title}</h5>
+              <p className="card-text text-center">
                {card.text}
               </p>
-              <a href="#" className="btn btn-primary">
+              {/* <a href="#" className="btn btn-primary">
                 Read More
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
