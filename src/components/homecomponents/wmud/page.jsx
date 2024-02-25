@@ -11,7 +11,7 @@ const Diff = () => {
       <div className={`row justify-content-center ${styles.Container}`}>
         <div className={`col-md-4 col-sm-6 ${styles.BoxContainer}`}>
           <div className={styles.LogoContainer}>
-            <FaPeopleGroup size={25} style={{ color: "#0D6FED" }} />
+            <FaPeopleGroup size={35} style={{ color: "#0D6FED" }} />
           </div>
           <div className={styles.TextHeader}>
             Qualified and Experienced Medical Professionals
@@ -26,7 +26,7 @@ const Diff = () => {
 
         <div className={`col-md-4 col-sm-6 ${styles.BoxContainer}`}>
           <div className={styles.LogoContainer}>
-            <GiArtificialIntelligence size={25} style={{ color: "#0D6FED" }} />
+            <GiArtificialIntelligence size={35} style={{ color: "#0D6FED" }} />
           </div>
           <div className={styles.TextHeader}>
           AI-Enabled proprietary software
@@ -42,7 +42,7 @@ and Expert Opinions.
 
         <div className={`col-md-4 col-sm-6 ${styles.BoxContainer}`}>
           <div className={styles.LogoContainer}>
-            <BsCalendar2Week size={25} style={{ color: "#0D6FED" }} />
+            <BsCalendar2Week size={35} style={{ color: "#0D6FED" }} />
           </div>
           <div className={styles.TextHeader}>
           One-week delivery service

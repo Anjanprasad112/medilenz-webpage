@@ -23,6 +23,11 @@
     position: relative;
 
 }
+.Hover:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+  
 .BG1{
     position: absolute; 
     left: 0;
@@ -66,6 +71,7 @@
     padding: 24px;
 
 }
+
 
 .ButtonContainer{
     margin: 20px;

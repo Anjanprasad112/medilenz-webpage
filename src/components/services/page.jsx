@@ -25,7 +25,7 @@ const Service = () => {
         className={`d-flex flex-wrap justify-content-center gap-4 align-items-center ${styles.Box}`}
       >
         {cards.map((card)=>(
-        <Link key={card.id} href={`services/${card.id}`}>
+        <Link key={card.id} href={`services/${card.id}`} className={styles.Hover}>
           <div
             className="card flex justify-content-center align-items-center "
             style={{ width: "350px",margin:"10px 12px 10px 12px",borderRadius:"16px",boxShadow:"0 8px 30px 0 rgba(0, 0, 0, 0.1)" }}
@@ -38,14 +38,11 @@ const Service = () => {
               width={300}
               height={200}
             />
-            <div className="card-body">
-              <h5 className="card-title text-center text-black" style={{fontWeight:"500"}}>{card.title}</h5>
+            <div className={`card-body ${styles.cardBody}`}>
+              <h5 className="card-title text-center text-black" style={{fontWeight:"bold"}}>{card.title}</h5>
               <p className="card-text text-center" style={{color:"#707070",lineHeight:"1.36"}}>
                {card.text}
               </p>
-              {/* <a href="#" className="btn btn-primary">
-                Read More
-              </a> */}
             </div>
           </div>
         </Link>

@@ -20,7 +20,7 @@
   box-shadow: 0 5px 30px 0 rgba(24, 114, 221, 0.2);
   background-color: #fff;
   outline: #0D6FED;
-  border: solid 1.5px #0D6FED;
+  /* border: solid 1.5px #0D6FED; */
 }
 
 .TextHeader {
@@ -38,7 +38,7 @@
 
 .TextContainer {
   /* font-family: Lato; */
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
   text-align: center;
   color: #707070;
