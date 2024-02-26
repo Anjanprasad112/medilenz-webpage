@@ -1,0 +1,100 @@
+.Headone{
+    font-size: large;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: center;
+    color: #707070;
+    width: 100%;
+}
+
+.Headtwo{
+    font-size: medium;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--bg);
+    margin: 25px 0;
+    width: 100%;
+}
+
+.Container{
+    width: 90%;
+    margin: 5px auto;
+    padding: 5px;
+}
+.Box{
+    width: 100%;
+    margin: 10px auto;
+    border-radius: 16px;
+    box-shadow: 0 5px 30px 0 rgba(24, 114, 221, 0.2);
+    background-color: #fff;
+}
+.Headthree{
+    font-size: large;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #707070;
+    margin: auto;
+    padding:20px 0;
+}
+
+.Card{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    gap: 20px;
+}
+.Mini{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    gap: 5px;
+}
+.ImageContainer{
+    color: var(--bg);
+    font-size: xxx-large;
+}
+.TextContainer{
+    padding: 15px;
+    font-size: medium;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.74;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+@media  screen and (max-width: 568px){
+    .Container{
+        width: 95%;
+        margin: auto;
+        padding: 5px;
+    }
+}
+
+
+@media screen and (max-width:835px) {
+    .Card{
+        flex-direction: column;
+    }
+}

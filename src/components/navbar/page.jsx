@@ -49,7 +49,7 @@ const Navbar = () => {
           <Link className={`nav-link ${styles.customtext}`} style={{ fontSize: '0.8rem' }} href="/services">SERVICES</Link>
         </li>
         <li className="nav-item">
-          <Link className={`nav-link ${styles.customtext}`} style={{ fontSize: '0.8rem' }} href="#">UPLOADFILE</Link>
+          <Link className={`nav-link ${styles.customtext}`} style={{ fontSize: '0.8rem' }} href="/uploadfile">UPLOADFILE</Link>
         </li>
         <li className="nav-item dropdown">
           <Link className={`nav-link dropdown-toggle ${styles.customtext}`} style={{ fontSize: '0.8rem' }} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
