@@ -74,7 +74,7 @@ const CarouselMain = ({ data }) => {
 
 
   return (
-    <div className="bg-white p-3">
+    <div className="bg-white">
       <div className="container">
         <div className="col">
           <Slider {...settings} className={styles.Slider}>

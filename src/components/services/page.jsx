@@ -27,8 +27,8 @@ const Service = () => {
         {cards.map((card)=>(
         <Link key={card.id} href={`services/${card.id}`} className={styles.Hover}>
           <div
-            className="card flex justify-content-center align-items-center "
-            style={{ width: "350px",margin:"10px 12px 10px 12px",borderRadius:"16px",boxShadow:"0 8px 30px 0 rgba(0, 0, 0, 0.1)" }}
+            className={`card flex justify-content-center align-items-center ${styles.CardS}`}
+            style={{margin:"10px 12px 10px 12px",borderRadius:"16px",boxShadow:"0 8px 30px 0 rgba(0, 0, 0, 0.1)" }}
           >
             <Image
               src={card.imageSrc}

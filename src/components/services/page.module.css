@@ -76,9 +76,26 @@
 .ButtonContainer{
     margin: 20px;
 }
+.CardS{
+    width: 350px;
+}
+@media screen and (max-width: 768px){
+    .CardS{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:468px){
+    .CardS{
+            width: 280px;
+    }
+}
 
 @media screen and (max-width:360px) {
     .Box{
         padding: 0px;
+    }
+    .CardS{
+        width: 260px;
     }
 }
