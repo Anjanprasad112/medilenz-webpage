@@ -39,8 +39,8 @@ const Service = () => {
               height={200}
             />
             <div className={`card-body ${styles.cardBody}`}>
-              <h5 className="card-title text-center text-black" style={{fontWeight:"bold"}}>{card.title}</h5>
-              <p className="card-text text-center" style={{color:"#707070",lineHeight:"1.36"}}>
+              <h5 className="card-title text-center text-black" style={{fontWeight:"bold",textDecoration:"none"}}>{card.title}</h5>
+              <p className="card-text text-center" style={{color:"#707070",lineHeight:"1.36",textDecoration:"none"}}>
                {card.text}
               </p>
             </div>
