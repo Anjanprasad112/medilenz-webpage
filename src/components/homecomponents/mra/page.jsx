@@ -31,18 +31,25 @@ const RecordAnalysis = () => {
               
               <div className={styles.OverlayContainer}>
                 <div className={styles.OverlayContent}>
-                  <h6 className="text-center">Platform Partners</h6>
+                  <div className={styles.Head}>Platform Partners</div>
                   <div className={styles.Partner}>
-                    <div>
+                    <div className={styles.ImgLogoOne}>
                       <Image
-                        src="/cilo.png"
+                        src="/cilologo.png"
                         alt="Images"
-                        width={35}
-                        height={30}
+                       fill
                       />
                     </div>
-                    <div>lexisnexis</div>
-                    <div>legaltechacclerator</div>
+                    <div className={styles.ImgLogoTwo}>
+                      <Image 
+                      src='/legal_logoHD.png'
+                      alt="logo"
+                      fill
+                      />
+
+                     
+                    </div>
+                    
                   </div>
                 </div>
               </div>

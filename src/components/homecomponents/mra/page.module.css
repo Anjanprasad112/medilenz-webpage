@@ -34,10 +34,10 @@
   
   .OverlayContainer {
     position: absolute;
-    bottom: 0;
+    bottom: -10%;
     left: 0;
     width: 80%;
-    margin-left: 32px;
+    margin-left: 10%;
     margin-top: 10px;
     background-color: #fff;
     box-shadow: 0 5px 30px 0 rgba(24, 114, 221, 0.2); 
@@ -49,6 +49,23 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    overflow: hidden;
+  }
+  .Head{
+    text-align: center;
+    font-size: larger;
+    font-weight: 500; 
+    color: black;
+  }
+  .ImgLogoOne{
+    width: 30%;
+    height: 30px;
+    position: relative;
+  }
+  .ImgLogoTwo{
+    position: relative;
+    width: 60%;
+    height: 60px;
   }
   
   .OverlayContent {
