@@ -35,7 +35,7 @@ const Page = () => {
               <BsFileEarmarkRichtextFill />
             </div>
             <div className={styles.TextContainer}>
-              Let's know what kind of document this PDF is by giving it a
+              Lets know what kind of document this PDF is by giving it a
               logical name.
             </div>
           </div>
