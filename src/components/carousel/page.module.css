@@ -44,6 +44,26 @@
 .separator {
   margin: 0 5px;
 } */
+.Name{
+  font-size: larger;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--bg);
+}
+.Nametag{
+  font-size: medium;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+}
 .Image{
   display: flex;
   justify-content:center;
@@ -67,7 +87,7 @@
   display: flex;
   align-items:center;
   justify-content:flex-start;
-  gap: 15px;
+  gap: 30px;
 }
 .CardB{
   display: flex;

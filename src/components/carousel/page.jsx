@@ -107,10 +107,10 @@ const CarouselMain = ({ data }) => {
                     />
                   </div>
                   <div className={` ${styles.MainB}`}>
-                    <div className="text-primary">
+                    <div className={styles.Name}>
                       {item.name}
                       </div>
-                      <div className="font-italic text-muted">
+                      <div className={styles.Nametag}>
                         {item.nametag}
                       </div>
                     
