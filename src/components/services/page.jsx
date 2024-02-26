@@ -49,9 +49,9 @@ const Service = () => {
       ))}
       </div>
 
-      <div className={styles.ButtonContainer}>
+      <Link href={`/services`} className={styles.ButtonContainer}>
         <div className="btn btn-primary">Additional Services</div>
-      </div>
+      </Link>
     </div>
   );
 };

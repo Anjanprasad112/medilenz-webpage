@@ -1,12 +1,12 @@
 import styles from './page.module.css';
-import Image from 'next/image';
+// import Image from 'next/image';
 
 const SecureFile = () => {
   return (
     <div className={`${styles.Container}`}>
         <div className={`row align-items-center justify-content-evenly`}>
-            <div className={`col-md-6 ${styles.ImageContainer}`}>
-                <Image src="/FTP.jpg" alt="ftp" fill />
+        <div className={`col-md-6 ${styles.VideoContainer}`}>
+                <video src="/path/to/video.mp4" controls className={styles.VideoStyle}></video>
             </div>
             <div className={`col-md-6 ${styles.TextContainer}`}>
                 <h2>Secure File Transfer</h2>
