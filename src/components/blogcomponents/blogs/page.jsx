@@ -4,10 +4,10 @@ import styles from "./page.module.css";
 import { useEffect, useState } from "react";
 import cardsData from "./cards.json";
 import Link from "next/link";
-import { usePathname } from 'next/navigation';
+// import { usePathname } from 'next/navigation';
 
 const BlogPage = () => {
-  const pathname = usePathname();
+  // const pathname = usePathname();
   const [cards, setCards] = useState([]);
 
   useEffect(() => {

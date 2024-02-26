@@ -18,7 +18,8 @@
     align-items: center;
     justify-content : center;
     /* background-color: #f6f6f6; */
-    margin-top: 20px;
+    margin-top: 5px;
+    padding: 20px 0;
     /* background-image: url('/images/BG.jpg'); */
     position: relative;
 
@@ -74,5 +75,8 @@
 @media screen and (max-width:360px) {
     .Box{
         padding: 0px;
+    }
+    .container{
+        padding: 40px 0;
     }
 }
