@@ -5,6 +5,7 @@ const main = () => {
     <div className='mt-5'>
     <h3 className='text-center'>What our clients says about us</h3>
     <CarouselMain data = {jsonData}/>
+    {/* <Testimonials/> */}
     </div>
   )
 }
