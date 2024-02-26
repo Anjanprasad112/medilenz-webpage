@@ -17,7 +17,7 @@ const Page = () => {
         you to keep track of the status of your case.
       </div>
       <div className={styles.Box}>
-        <div className={styles.Headthree}>~ SUBMISSION INSTRUCTIONS ~</div>
+        <div className={styles.Headthree}>&tilde; SUBMISSION INSTRUCTIONS &tilde;</div>
         <div className={styles.Card}>
           <div className={styles.Mini}>
             <div className={styles.ImageContainer}>
