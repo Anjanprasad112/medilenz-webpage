@@ -56,41 +56,41 @@ function MyForm() {
         <div className={styles.Rows}>
           <div className={styles.Cols}>
             <fieldset className={styles.fieldset}>
-              <div>Contact Person *</div>
+              <div className={styles.Text}>Contact Person <span className={styles.Sym}>*</span></div>
               <Form.Control type="text" placeholder="The person uploading these records" name="contactPerson" value={formData.contactPerson} onChange={handleChange} required />
             </fieldset>
             <fieldset className={styles.fieldset}>
-              <div>Contact Number *</div>
+              <div className={styles.Text}>Contact Number <span className={styles.Sym}>*</span></div>
               <Form.Control type="text" placeholder="Office Phone Number or Mobile" name="contactNumber" value={formData.contactNumber} onChange={handleChange} required />
             </fieldset>
             <fieldset className={styles.fieldset}>
-              <div>Email *</div>
+              <div className={styles.Text}>Email <span className={styles.Sym}>*</span></div>
               <Form.Control type="email" placeholder="Contact Person Email" name="email" value={formData.email} onChange={handleChange} required />
             </fieldset>
             <fieldset className={styles.fieldset}>
-              <div>Attorney Name *</div>
+              <div className={styles.Text}>Attorney Name <span className={styles.Sym}>*</span></div>
               <Form.Control type="text" placeholder="Attorney name" name="attorneyName" value={formData.attorneyName} onChange={handleChange} required />
             </fieldset>
             <fieldset className={styles.fieldset}>
-              <div>Case Name *</div>
+              <div className={styles.Text}>Case Name <span className={styles.Sym}>*</span></div>
               <Form.Control type="text" placeholder="FirstName MiddleName LastName" name="caseName" value={formData.caseName} onChange={handleChange} required />
             </fieldset>
             <fieldset className={styles.fieldset}>
-              <div>BRIEF CASE OVERVIEW *</div>
+              <div className={styles.Text}>BRIEF CASE OVERVIEW <span className={styles.Sym}>*</span></div>
               <Form.Control as="textarea" rows={3} placeholder="Issues (if any) & Date of focus…" name="briefCaseOverview" value={formData.briefCaseOverview} onChange={handleChange} required />
             </fieldset>
             <fieldset className={styles.fieldset}>
-              <div>Other Services (Please Specify)</div>
+              <div className={styles.Text}>Other Services (Please Specify)</div>
               <Form.Control as="textarea" rows={3} placeholder="If any kindly mention.." name="otherServices" value={formData.otherServices} onChange={handleChange} />
             </fieldset>
             <fieldset className={styles.fieldset}>
-              <div>SPECIFIC INSTRUCTIONS</div>
+              <div className={styles.Text}>SPECIFIC INSTRUCTIONS</div>
               <Form.Control as="textarea" rows={3} placeholder="If any kindly mention.." name="specificInstructions" value={formData.specificInstructions} onChange={handleChange} />
             </fieldset>
           </div>
           <div className={styles.Cols}>
             <fieldset className={styles.fieldset}>
-              <legend>Types of Services Desired</legend>
+              <div className={styles.Head}>Types of Services Desired</div>
               <Form.Group>
                 <Form.Check type="checkbox" label="CHRONOLOGY / MEDICAL SUMMARY" name="servicesDesired" value="CHRONOLOGY / MEDICAL SUMMARY" onChange={handleCheckboxChange} />
                 <Form.Check type="checkbox" label="NARRATIVE SUMMARY" name="servicesDesired" value="NARRATIVE SUMMARY" onChange={handleCheckboxChange} />
@@ -106,7 +106,7 @@ function MyForm() {
               </Form.Group>
             </fieldset>
             <fieldset className={styles.fieldset}>
-              <legend>File Delivery Time</legend>
+              <div className={styles.Head}>File Delivery Time</div>
               <Form.Group>
                 <Form.Check type="radio" label="Normal Delivery (Approximately 2 weeks)" name="fileDeliveryTime" value="Normal Delivery" onChange={handleChange} />
                 <Form.Check type="radio" label="Week or less (25% surcharge)" name="fileDeliveryTime" value="Week or less" onChange={handleChange} />
@@ -115,7 +115,7 @@ function MyForm() {
               </Form.Group>
             </fieldset>
             <fieldset className={styles.fieldset}>
-              <legend>Special Report</legend>
+              <div className={styles.Head}>Special Report</div>
               <Form.Group>
                 <Form.Check type="checkbox" label="Indexing and PDF-Sorting" name="specialReport" value="Indexing and PDF-Sorting" onChange={handleCheckboxChange} />
                 <Form.Check type="checkbox" label="Plaintiff Fact Sheet" name="specialReport" value="Plaintiff Fact Sheet" onChange={handleCheckboxChange} />
@@ -124,14 +124,14 @@ function MyForm() {
                 <Form.Check type="checkbox" label="Medical Queries" name="specialReport" value="Medical Queries" onChange={handleCheckboxChange} />
               </Form.Group>
             </fieldset>
-            <div>Note :
-* Required fields are mandatory.</div>
+            <div className={styles.Text}>Note :
+<span className={styles.Sym}> *</span> Required fields are mandatory.</div>
           </div>
         </div>
         <div className={styles.Bottom}>
           <Col>
             <fieldset className={styles.fieldset}>
-              <legend>Select Document</legend>
+              <div className={styles.Head}>Select Document <span className={styles.Sym}>*</span></div>
               <Form.Group>
                 <Form.Control type="file" name="document" onChange={handleFileChange} />
               </Form.Group>
@@ -139,7 +139,7 @@ function MyForm() {
           </Col>
           <Col>
             <fieldset className={styles.fieldset}>
-              <legend>Select Folder</legend>
+              <div className={styles.Head}>Select Folder <span className={styles.Sym}>*</span></div>
               <Form.Group>
                 <Form.Control type="file" name="folder" onChange={handleFileChange} />
               </Form.Group>
