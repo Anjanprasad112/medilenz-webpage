@@ -2,19 +2,24 @@
     position: absolute; 
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 250%;
     background-color: #f6f6f6;  
     opacity: 0.9;
     z-index: -1;
+    object-fit: cover;
+}
+.Container{
+    width: 100%;
+    height: 100%;
 }
 .BG2 {
     position: absolute;
     /* top: 0;
     left: 0; */
     width: 100%;
-    height: 100%;
+    height: 250%;
     background-image: url('/BG.jpg');
-    opacity: 0.08; 
+    opacity: 0.06; 
     z-index: -1;    
     background-size: cover; 
     background-repeat: no-repeat;
