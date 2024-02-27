@@ -17,8 +17,6 @@ const BlogPage = () => {
     <div className={styles.container}>
       <div className={styles.BG1}></div>
         <div className={styles.BG2}></div>
-    
-
       <div
         className={`d-flex flex-wrap justify-content-center gap-4 align-items-center ${styles.Box}`}
       >
