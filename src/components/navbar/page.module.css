@@ -124,13 +124,13 @@
 }
 @media screen and (max-width:1200px) {
     .customtext{
-        margin: 0 5px;
+        margin: 0 1px;
     }
     
 }
 @media screen and (max-width:1050px) {
     .customtext{
-        margin: 0 1px;
+        margin: 0 0px;
     }
 }
 /* @media screen and (min-width: 1536px) {
