@@ -1,87 +1,172 @@
-import styles from './page.module.css'
+import styles from "./page.module.css";
 import { CiSearch } from "react-icons/ci";
 import { LuUser2 } from "react-icons/lu";
-import Link from 'next/link'
-import Image from 'next/image'
-
+import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-white">
-  <div className="container-fluid">
-  <Link className={`navbar-brand ${styles.LogoContainer} `} href="/">
-      <Image src="/logo.jpg" alt="Logo" width={40} height={40} className="mx-1"/>
-      <span className="fs-20 text-sm text-md text-lg text-xl">MEDILENZ</span>
-    </Link>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        <li className="nav-item">
-          <Link className={`nav-link ${styles.customtext}`} style={{ fontSize: '0.8rem' }} aria-current="page" href="/">HOME</Link>
-        </li>
-       
-        <li className="nav-item dropdown">
-          <Link className={`nav-link dropdown-toggle ${styles.customtext}`} style={{ fontSize: '0.8rem' }} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            ABOUT
-          </Link>
-          <ul className="dropdown-menu">
-            <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }}  href="/about">About Us</Link></li>
-            {/* <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }}  href="#">Another action</Link></li> */}
-            {/* <li><hr className="dropdown-divider"/></li> */}
-            {/* <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }} href="#">Something else here</Link></li> */}
+    <nav className={`navbar navbar-expand-lg bg-white  ${styles.Contain}`}>
+      <div className={styles.TopCon}>
+        <Link className={` ${styles.LogoContainer} `} href="/">
+          <Image
+            src="/logo.jpg"
+            alt="Logo"
+            width={45}
+            height={45}
+            className="mx-1"
+          />
+          {/* <span className={styles.LogoTitle}>MEDILENZ</span> */}
+        </Link>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+              <Link
+                className={`nav-link ${styles.customtext}`}
+                aria-current="page"
+                href="/"
+              >
+                HOME
+              </Link>
+            </li>
+
+            <li className="nav-item dropdown">
+              <Link
+                className={`nav-link dropdown-toggle ${styles.customtext}`}
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                ABOUT
+              </Link>
+              <ul className="dropdown-menu">
+                <li>
+                  <Link className="dropdown-item" href="/about">
+                    About Us
+                  </Link>
+                </li>
+              </ul>
+            </li>
+            <li className="nav-item dropdown">
+              <Link
+                className={`nav-link dropdown-toggle ${styles.customtext}`}
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                PARTNERS
+              </Link>
+              <ul className="dropdown-menu">
+                <li>
+                  <Link className="dropdown-item" href="/partners">
+                    Partners
+                  </Link>
+                </li>
+                <li>
+                  <hr className="dropdown-divider " />
+                </li>
+                <li>
+                  <Link className="dropdown-item" href="/becomepartners">
+                    Become Partners
+                  </Link>
+                </li>
+                {/* <li><hr className="dropdown-divider"/></li> */}
+                {/* <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }} href="#">Something else here</Link></li> */}
+              </ul>
+            </li>
+            <li className="nav-item">
+              <Link
+                className={`nav-link ${styles.customtext}`}
+                href="/services"
+              >
+                SERVICES
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className={`nav-link ${styles.customtext}`}
+                href="/uploadfile"
+              >
+                UPLOADFILE
+              </Link>
+            </li>
+            <li className="nav-item dropdown">
+              <Link
+                className={`nav-link dropdown-toggle ${styles.customtext}`}
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                CAREERS
+              </Link>
+              <ul className="dropdown-menu">
+                <li>
+                  <Link className="dropdown-item" href="/careers">
+                    Careers
+                  </Link>
+                </li>
+                <li>
+                  <hr className="dropdown-divider " />
+                </li>
+                <li>
+                  <Link className="dropdown-item" href="/blog">
+                    Blog
+                  </Link>
+                </li>
+                <li>
+                  <hr className="dropdown-divider " />
+                </li>
+                <li>
+                  <Link className="dropdown-item" href="newsgallery">
+                    News & Gallery
+                  </Link>
+                </li>
+              </ul>
+            </li>
+            <li className="nav-item">
+              <Link
+                className={`nav-link ${styles.customtext}`}
+                href="contactus"
+              >
+                CONTACT
+              </Link>
+            </li>
           </ul>
-        </li>
-        <li className="nav-item dropdown">
-          <Link className={`nav-link dropdown-toggle ${styles.customtext}`} style={{ fontSize: '0.8rem' }} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            PARTNERS
-          </Link>
-          <ul className="dropdown-menu">
-            <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }}  href="/partners">Partners</Link></li>
-            <li><hr className="dropdown-divider "/></li>
-            <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }}  href="/becomepartners">Become Partners</Link></li>  
-            {/* <li><hr className="dropdown-divider"/></li> */}
-            {/* <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }} href="#">Something else here</Link></li> */}
-          </ul>
-        </li>
-        <li className="nav-item">
-          <Link className={`nav-link ${styles.customtext}`} style={{ fontSize: '0.8rem' }} href="/services">SERVICES</Link>
-        </li>
-        <li className="nav-item">
-          <Link className={`nav-link ${styles.customtext}`} style={{ fontSize: '0.8rem' }} href="/uploadfile">UPLOADFILE</Link>
-        </li>
-        <li className="nav-item dropdown">
-          <Link className={`nav-link dropdown-toggle ${styles.customtext}`} style={{ fontSize: '0.8rem' }} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          CAREERS
-          </Link>
-          <ul className="dropdown-menu">
-            <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }} href="/careers">Careers</Link></li>
-            <li><hr className="dropdown-divider "/></li>
-            <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }} href="/blog">Blog</Link></li>
-            <li><hr className="dropdown-divider "/></li>
-            <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }} href="newsgallery">News & Gallery</Link></li>
-          </ul>
-        </li>
-        <li className="nav-item">
-          <Link className={`nav-link ${styles.customtext}`} style={{ fontSize: '0.8rem' }} href="contactus">CONTACT</Link>
-        </li>
-        
-      </ul>
-      <form className="d-flex" role="search">
+          <div className={styles.InputBox}>
+            <input type="text" className={styles.Input} />
+            <CiSearch className={styles.SearchIcon} />
+          </div>
+
+          <div className={styles.Admin}>
+            <LuUser2 className={styles.AdminLogo} />
+          </div>
+        </div>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;
+
+{
+  /* <form className="d-flex" role="search">
         <input className={`form-control me-2 ${styles.customfontsize}`} type="search" placeholder="Search here..." aria-label="Search"/>
-        {/* <button className={`btn ${styles.Button}`} type="submit">Search</button> */}
         <div className={styles.SearchBox}>
           <CiSearch className={styles.SearchIcon}/>
         </div>
-      </form>
-      <div className={styles.Admin}>
-        <LuUser2 className={styles.AdminLogo}/>
-      </div>
-    </div>
-  </div>
-</nav>
-  )
+      </form> */
 }
-
-export default Navbar;

@@ -6,7 +6,7 @@
 }
 
 .Icon{
-    font-size: medium;
+    font-size: smaller;
 }
 .ImgContainer{
     margin-bottom: 3px;
@@ -14,6 +14,13 @@
 
 .TextContainer{
     color: var(--text);
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
 }
 .BoxContainer{
     display: flex;
@@ -22,16 +29,31 @@
     gap: 4px;
 }
 .ButtonContainer{
-    padding: 1vw 0;
+    padding: 8px;
 }
 .Button{
-    border-radius: 8px;
+    font-size: 11px;
     background-color: var(--text);
     color: var(--bg);
-    padding: 0 1vw;
+    padding:1px 8px;
+    border-radius:6px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
 }
-
-@media screen and (max-width: 1751px ) {
+.BoxContainer:hover{
+    cursor: pointer;
+}
+@media screen and (max-width:990px) {
+    .SubHeader{
+        display:none;
+    }
+    
+}
+/* @media screen and (max-width: 1751px ) {
     .TextContainer{
         font-size: large;
     }
@@ -52,8 +74,8 @@
         font-size:large;
     }
 
-}
-@media screen and (max-width: 1536px) {
+} */
+/* @media screen and (max-width: 1536px) {
         .TextContainer , .Button,.Icon{
             font-size: medium;
         }
@@ -93,4 +115,4 @@
         display: none;
     }
     
-  }
+  } */
