@@ -54,7 +54,7 @@
 .TextContainer {
    display: flex;
    flex-direction: column;
-   justify-content: center;
+   justify-content: space-between;
    align-items: center;
    align-self: stretch;
     color: black;
@@ -93,7 +93,8 @@
         flex-direction: column;
     }
     .Container{
-        width : 95%;
-        margin: auto;
+        background-color: var(--text);
+        width: 95%;
+        margin: 70px auto 30px auto;
     }
 }

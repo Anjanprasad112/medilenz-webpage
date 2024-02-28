@@ -43,7 +43,7 @@
     padding-bottom: 20px; 
     border-radius: 12px;
     width: 100%;
-    height: 350px;
+    height: 400px;
   }
   
   .OverlayContainer {
@@ -71,14 +71,14 @@
     color: black;
   }
   .ImgLogoOne{
-    width: 30%;
+    width: 20%;
     height: 50px;
     position: relative;
   }
   .ImgLogoTwo{
     position: relative;
-    width: 40%;
-    height: 80px;
+    width: 30%;
+    height: 70px;
   }
   
   .OverlayContent {
