@@ -3,10 +3,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0px 20px;
 }
 
 .Icon{
-    font-size: smaller;
+    font-size: 14px;
 }
 .ImgContainer{
     margin-bottom: 3px;

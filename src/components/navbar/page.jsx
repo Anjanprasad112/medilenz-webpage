@@ -16,7 +16,6 @@ const Navbar = () => {
             height={45}
             className="mx-1"
           />
-          {/* <span className={styles.LogoTitle}>MEDILENZ</span> */}
         </Link>
         <button
           className="navbar-toggler"
@@ -41,50 +40,47 @@ const Navbar = () => {
               </Link>
             </li>
 
-            <li className="nav-item dropdown">
+            <li className="nav-item ">
               <Link
-                className={`nav-link dropdown-toggle ${styles.customtext}`}
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+                className={`nav-link  ${styles.customtext}`}
+                href="/about"
+                aria-current="page"
               >
                 ABOUT
               </Link>
-              <ul className="dropdown-menu">
+              {/* <ul className="dropdown-menu">
                 <li>
                   <Link className="dropdown-item" href="/about">
                     About Us
                   </Link>
                 </li>
-              </ul>
+              </ul> */}
             </li>
-            <li className="nav-item dropdown">
+            <li className={`nav-item dropdown ${styles.Drop}`}>
               <Link
-                className={`nav-link dropdown-toggle ${styles.customtext}`}
-                href="#"
+                className={`nav-link  ${styles.customtext}`}
+                href="/partners"
+                aria-current="page"
+              >
+                PARTNERS
+              </Link>
+              <Link
+                className={` dropdown-toggle ${styles.customtext}`}
+                href="/partners"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                PARTNERS
+                
               </Link>
               <ul className="dropdown-menu">
-                <li>
-                  <Link className="dropdown-item" href="/partners">
-                    Partners
-                  </Link>
-                </li>
-                <li>
-                  <hr className="dropdown-divider " />
-                </li>
+      
                 <li>
                   <Link className="dropdown-item" href="/becomepartners">
                     Become Partners
                   </Link>
                 </li>
-                {/* <li><hr className="dropdown-divider"/></li> */}
-                {/* <li><Link className="dropdown-item" style={{ fontSize: '0.8rem' }} href="#">Something else here</Link></li> */}
+
               </ul>
             </li>
             <li className="nav-item">
@@ -103,25 +99,25 @@ const Navbar = () => {
                 UPLOADFILE
               </Link>
             </li>
-            <li className="nav-item dropdown">
+            <li className={`nav-item dropdown ${styles.Drop}`}>
               <Link
-                className={`nav-link dropdown-toggle ${styles.customtext}`}
-                href="#"
+                className={`nav-link  ${styles.customtext}`}
+                href="/careers"
+                aria-current="page"
+              >
+                CAREERS
+              </Link>
+              <Link
+                className={` dropdown-toggle ${styles.customtext}`}
+                href="/careers"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                CAREERS
+    
               </Link>
               <ul className="dropdown-menu">
-                <li>
-                  <Link className="dropdown-item" href="/careers">
-                    Careers
-                  </Link>
-                </li>
-                <li>
-                  <hr className="dropdown-divider " />
-                </li>
+
                 <li>
                   <Link className="dropdown-item" href="/blog">
                     Blog
@@ -161,12 +157,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-{
-  /* <form className="d-flex" role="search">
-        <input className={`form-control me-2 ${styles.customfontsize}`} type="search" placeholder="Search here..." aria-label="Search"/>
-        <div className={styles.SearchBox}>
-          <CiSearch className={styles.SearchIcon}/>
-        </div>
-      </form> */
-}
