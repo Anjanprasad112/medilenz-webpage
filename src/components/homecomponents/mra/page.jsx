@@ -5,28 +5,25 @@ const RecordAnalysis = () => {
   return (
     <div className={`${styles.Container} container-fluid`}>
       <div className={styles.BackgroundImage}></div>
-      <div className={`row align-items-center justify-content-center`}>
-        <div className={`col-md-6`}>
-          <div className={`row align-items-center`}>
+      <div className={`${styles.Cont}`}>
+          <div className={`row align-items-center justify-content-center`}>
             <div className={`col ${styles.TextContainer}`}>
               <h2 className="text-center">Medilenz Record Analysis</h2>
-              <p className="text-center">
+              <div className={styles.Text}>
                 Composed of legal experts specializing in healthcare,
                 orchestrates legal strategies navigates regulatory complexities,
                 and champions ethical standards in the intersection of medicine
                 and law.
-              </p>
+              </div>
             </div>
-          </div>
           <div className={`row align-items-center justify-content-center`}>
-            <div className={`col-auto ${styles.ImageContainer}`}>
+            <div className={` ${styles.ImageContainer}`}>
               
               <Image
                 src="/Services_3.jpeg"
                 alt="Images"
                 className={styles.ImageBox}
-                width={300} 
-                height={300} 
+                fill
                 />
               
               <div className={styles.OverlayContainer}>

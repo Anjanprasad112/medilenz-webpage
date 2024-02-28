@@ -1,9 +1,9 @@
-/* page.module.css */
+
 .Container {
-    padding: 14px 80px;
     background-color: var(--text);
-    width: 100%;
-    margin : 25px 0;
+    width: 90%;
+    margin: 70px auto 30px auto;
+    padding:5px;
 }
 .VideoContainer {
     display: flex;
@@ -15,8 +15,31 @@
 }
 
 .VideoStyle {
-    width: 100%;
-    height: 100%;
+   width: 350px;
+   height: 225px;
+}
+.Box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.DescTitle{
+    font-weight: 500;
+    padding : 5px;
+    color: black;
+    font-size :32px;
+}
+.Description{
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    padding: 5px;
 }
 
 .ImageContainer {
@@ -29,8 +52,9 @@
 }
 
 .TextContainer {
-    padding: 0 20px;
     text-align: center;
+    color: black;
+    width: 100%;
 }
 .ImageStyle{
     /* position: relative; */
@@ -39,19 +63,33 @@
 }
 @media (max-width: 768px) {
     .TextContainer {
-        padding: 20px;
+        padding: 5px;
+    }
+    .Description{
+        text-align: center;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .Container{
-        padding: 14px 40px;
-    }
+   
     .ImageContainer{
         height : 200px;
         width : 200px;
     }
     .VideoContainer{
         width : 300px;
+    }
+    .VideoStyle{
+        width : 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Box{
+        flex-direction: column;
+    }
+    .Container{
+        width : 95%;
+        margin: auto;
     }
 }
