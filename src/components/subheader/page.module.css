@@ -29,13 +29,13 @@
     gap: 4px;
 }
 .ButtonContainer{
-    padding: 8px;
+    padding: 6px;
 }
 .Button{
-    font-size: 11px;
+    font-size: 12px; 
     background-color: var(--text);
     color: var(--bg);
-    padding:1px 8px;
+    padding:2px 12px;
     border-radius:6px;
     font-weight: 600;
     font-stretch: normal;
