@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import { useEffect, useState } from "react";
 import cardsData from "./cards.json";
+import Link from "next/link";
 
 const StayUpdated = () => {
 
@@ -18,13 +19,13 @@ const StayUpdated = () => {
       </div>
 
       <div
-        className={`d-flex flex-wrap justify-content-center gap-4 align-items-center ${styles.Box}`}
+        className={`d-flex flex-wrap justify-content-center align-items-center ${styles.Box}`}
       >
         {cards.map((card)=>(
         <div key={card.id}>
           <div
-            className="card flex justify-content-center align-items-center border border-primary"
-            style={{ width: "20rem" }}
+            className={`card flex justify-content-center align-items-center ${styles.Card}`}
+            
           >
             <Image
               src={card.imageSrc}
@@ -40,9 +41,9 @@ const StayUpdated = () => {
               <p className="card-text">
                {card.text}
               </p>
-              <a href="#" className="btn btn-primary">
+              <Link href="#" className="btn btn-primary">
                 Read More
-              </a>
+              </Link>
             </div>
           </div>
         </div>

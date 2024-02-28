@@ -1,51 +1,89 @@
-/* Testimonials.module.css
-.testimonials {
-  padding: 50px 0;
+.Top{
+  width:100%;
+  background-color: #fff;
+}
+.Container{
+  width:85%;
+  margin: auto;
 }
 
-.card {
-  border: none;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  overflow: hidden;
+.Slider{
+  margin: 0 10px;
 }
 
-.image {
-  width: 100%;
-  height: auto;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.body {
-  padding: 20px;
-}
-
-.title {
-  font-size: 1.25rem;
-  font-weight: bold;
-}
-
-.text {
-  font-size: 1rem;
-}
-
-.meta {
+.Card{
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  height: 275px;
+  width:85%;
+  margin: 10px auto;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 15px;
+  border-bottom: 4px solid var(--bg);
+  border-right: 4px solid var(--bg);
 }
-
-.name,
-.nametag {
-  font-size: 0.875rem;
-}
-
-.separator {
-  margin: 0 5px;
+/* .Card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 4px;
+  background-color: var(--bg);
 } */
+
+.Top{
+  margin:20px 0;
+}
+
+.ImageContainer{
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2); 
+  top: 0;
+  /* width:86px;
+  height: 86px;
+  border-radius: 50%;
+  bottom: 15%; */ 
+}
+.Image{
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.Title{
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  padding-top: 3px 0px;
+  width: 100%;
+  margin: 30px 0 3px 0;
+}
+.Desc{
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+  padding: 0px 0px 6px 0px;
+}
 .Name{
-  font-size: larger;
+  font-size: 22px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -53,9 +91,10 @@
   letter-spacing: normal;
   text-align: left;
   color: var(--bg);
+  padding: 4px 0px;
 }
-.Nametag{
-  font-size: medium;
+.NameTag{
+  font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -63,50 +102,13 @@
   letter-spacing: normal;
   text-align: left;
   color: #707070;
-}
-.Image{
-  display: flex;
-  justify-content:center;
-  align-items:center;
+  padding: 3px 0px;
 }
 
-.Slider{
-  margin: 0 20px;
-  display: flex;
-  justify-content:center;
-  align-items:center;
 
-}
-.MainB{
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items:center;
-}
-.BOX {
-  display: flex;
-  align-items:center;
-  justify-content:flex-start;
-  gap: 30px;
-}
-.CardB{
-  display: flex;
-  flex-direction: column;
-  align-items:center;
-  justify-content:center;
-}
-
-@media screen and (max-width: 769px){
-  .CardB{
-    display: flex;
-    align-items: center;
-    justify-content:center;
-
-  }
-  .BOX{
-    justify-content: center;
-  }
-  .Image{
-    margin:5px;
+@media screen and (max-width: 480px) {
+  .Card{
+    width: 95%;
+    height: 350px;
   }
 }

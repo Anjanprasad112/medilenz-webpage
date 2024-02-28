@@ -58,10 +58,10 @@ const CarouselMain = ({ data }) => {
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplaySpeed: 5000,
-    speed : 2000,
+    // speed : 2000,
     responsive: [
       {
-        breakpoint: 769,
+        breakpoint: 990,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -73,65 +73,37 @@ const CarouselMain = ({ data }) => {
   };
 
   return (
-    <div className="bg-white">
-      <div className="container">
-        <div className="col">
-          <Slider {...settings} className={styles.Slider}>
-            {data.map((item) => (
-              <div
-                key={item.id}
-                className="card border border-primary border-1 rounded mb-3"
-                style={{ borderRadius: "15px" }}
-              >
-                <div
-                  className={`card-body d-flex flex-column   justify-content-center`}
-                >
-                  <div className={styles.BOX}>
-                  <div
-                    className={`rounded-circle overflow-hidden mr-3 ${styles.Image}`}
-                    style={{
-                      width: "82px",
-                      height: "82px",
-                      border: "none",
-                      boxShadow:"0 3px 10px 0 rgba(0, 0, 0, 0.2)",
-                      marginBottom: "5px",
-                      position: "relative",
-                    }}
-                  >
-                    <Image
-                      src={item.img}
-                      alt={item.title}
-                      width={82}
-                      height={82}
-                      className={styles.Img}
-                    />
-                  </div>
-                  <div className={` ${styles.MainB}`}>
-                    <div className={styles.Name}>
-                      {item.name}
-                      </div>
-                      <div className={styles.Nametag}>
-                        {item.nametag}
-                      </div>
-                    
-                  </div>
-                  </div>
-                  <div>
-                    <h5
-                      className="card-text text-black text-center"
-                      style={{ fontSize: "1.1rem" }}
-                    >
-                      {item.title}
-                    </h5>
-                    <p className="card-text" style={{ fontSize: "0.85rem" }}>
-                      {item.text}
-                    </p>
-                  </div>
-                </div>
+    <div className={styles.Top}>
+      <div className={styles.Container}>
+        <Slider {...settings} className={styles.Slider}>
+          {data.map((item) => (
+            <div className={styles.Top} key={item.id}>
+            <div className={styles.Card} >
+              <div className={styles.ImageContainer}>
+                <Image
+                  src={item.img}
+                  alt={item.img}
+                  width={70}
+                  height={70}
+                  className={styles.Image}
+                />
               </div>
-            ))}
-          </Slider>
-        </div>
+              <div className={styles.Title}>
+                {item.title}
+              </div>
+              <div className={styles.Desc}>
+                {item.text}
+              </div>
+              <div className={styles.Name}>
+                {item.name}
+              </div>
+              <div className={styles.NameTag}>
+                {item.nametag}
+              </div>
+            </div>
+            </div>
+          ))}
+        </Slider>
       </div>
     </div>
   );
