@@ -126,19 +126,14 @@
     align-items: center;
     justify-content: center;
 }
-@media screen and (max-width:500px) {
-    .InputBox{
-        width: 65%;
-    }
-    
-}
+
 @media screen and (max-width: 990px){
     .Admin{
         margin: 5px;
     }
     .InputBox{
         justify-content: space-between;
-        width: 50%;
+        width: 60%;
         margin: 0;
         padding: 1px 6px;
     }
@@ -147,6 +142,8 @@
     }
     .Drop{
         justify-content:flex-start;
+        align-items: center;
+        gap: 10px;
     }
 }
 @media screen and (max-width:1275px) {
