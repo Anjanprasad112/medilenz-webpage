@@ -68,8 +68,7 @@
 
 .Box{
     display: flex;
-    padding: 24px;
-
+    gap: 65px;
 }
 
 
@@ -82,6 +81,9 @@
 @media screen and (max-width: 768px){
     .CardS{
         width: 300px;
+    }
+    .Box{
+        gap: 20px;
     }
 }
 

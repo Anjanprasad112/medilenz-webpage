@@ -147,6 +147,9 @@
         align-items: center;
         gap: 10px;
     }
+    .customtextdrop{
+        margin: 0;
+    }
 }
 @media screen and (max-width:1275px) {
     .customtext{
