@@ -126,6 +126,12 @@
     align-items: center;
     justify-content: center;
 }
+@media screen and (max-width:500px) {
+    .InputBox{
+        width: 65%;
+    }
+    
+}
 @media screen and (max-width: 990px){
     .Admin{
         margin: 5px;
