@@ -96,6 +96,17 @@
 
   /* white-space: nowrap; */
 }
+.customtextdrop{
+    color: var(--subtext);
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.91;
+    letter-spacing: normal;
+    text-align: left;
+    margin: 0 0px;
+    font-size: 15px;
+}
 
 .Logo{
     font-size: large;
@@ -140,7 +151,7 @@
 }
 @media screen and (max-width:1150px) {
     .customtext{
-        margin: 0 5px;
+        margin: 0 4px;
         font-size: 15px;
     }
 }

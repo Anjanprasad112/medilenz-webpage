@@ -58,14 +58,14 @@ const Navbar = () => {
             </li>
             <li className={`nav-item dropdown ${styles.Drop}`}>
               <Link
-                className={`nav-link  ${styles.customtext}`}
+                className={`nav-link  ${styles.customtextdrop}`}
                 href="/partners"
                 aria-current="page"
               >
                 PARTNERS
               </Link>
               <Link
-                className={` dropdown-toggle ${styles.customtext}`}
+                className={` dropdown-toggle ${styles.customtextdrop}`}
                 href="/partners"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -101,14 +101,14 @@ const Navbar = () => {
             </li>
             <li className={`nav-item dropdown ${styles.Drop}`}>
               <Link
-                className={`nav-link  ${styles.customtext}`}
+                className={`nav-link  ${styles.customtextdrop}`}
                 href="/careers"
                 aria-current="page"
               >
                 CAREERS
               </Link>
               <Link
-                className={` dropdown-toggle ${styles.customtext}`}
+                className={` dropdown-toggle ${styles.customtextdrop}`}
                 href="/careers"
                 role="button"
                 data-bs-toggle="dropdown"
