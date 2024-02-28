@@ -7,7 +7,7 @@ import { BsCalendar2Week } from "react-icons/bs";
 const Diff = () => {
   return (
     <div className="container-fluid">
-      <h3 className={styles.Header}>What makes us different</h3>
+      <h2 className={styles.Header}>What makes us different</h2>
       <div className={`row justify-content-center ${styles.Container}`}>
         <div className={`col-md-4 col-sm-6 ${styles.BoxContainer}`}>
           <div className={styles.LogoContainer}>

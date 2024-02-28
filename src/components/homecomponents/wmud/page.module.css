@@ -16,7 +16,7 @@
 .BoxContainer {
   width: 300px;
   padding: 10px 20px;
-  margin: 35px;
+  margin: 10px 50px;
   border-radius: 16px;
   box-shadow: 0 5px 30px 0 rgba(24, 114, 221, 0.2);
   background-color: #fff;
@@ -26,7 +26,7 @@
 
 .TextHeader {
   /* font-family: Lato; */
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 500;
   text-align: center;
   color: #000;
@@ -39,13 +39,13 @@
 
 .TextContainer {
   /* font-family: Lato; */
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   text-align: center;
   color: #707070;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 865px) {
   .BoxContainer {
     width: 100%;
   }
