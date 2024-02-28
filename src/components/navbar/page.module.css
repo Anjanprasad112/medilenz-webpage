@@ -104,8 +104,9 @@
     line-height: 0.91;
     letter-spacing: normal;
     text-align: left;
-    margin: 0 0px;
+    margin: 0 4px;
     font-size: 15px;
+    text-decoration: none;
 }
 
 .Logo{
@@ -118,6 +119,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   margin: 0 10px;
 }
 
 
@@ -150,6 +152,9 @@
     .customtext{
         margin: 0 10px;
     }
+    .Drop{
+        margin: 0 5px;
+    }
     
 }
 @media screen and (max-width:1150px) {
@@ -157,10 +162,16 @@
         margin: 0 4px;
         font-size: 15px;
     }
+    .Drop{
+        margin: 0 2px;
+    }
 }
 @media screen and (max-width:1100px) {
     .customtext{
         margin: 0 1px;
+    }
+    .Drop{
+        margin : 0 1px;
     }
     
 }

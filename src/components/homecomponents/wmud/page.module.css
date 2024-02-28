@@ -8,14 +8,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 10px;
-  padding: 14px 80px;
+  width: 95%;
+  margin: auto;
+
 }
 
 .BoxContainer {
   width: 300px;
   padding: 10px 20px;
-  margin: 15px;
+  margin: 30px;
   border-radius: 16px;
   box-shadow: 0 5px 30px 0 rgba(24, 114, 221, 0.2);
   background-color: #fff;
@@ -50,8 +51,3 @@
   }
 }
 
-@media screen and (max-width:420px){
-  .Container{
-  padding: 14px 40px;
-  }
-}
