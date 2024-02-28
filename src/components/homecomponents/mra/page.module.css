@@ -69,6 +69,7 @@
     font-size: 22px;
     font-weight: 500; 
     color: black;
+    padding: 5px;
   }
   .ImgLogoOne{
     width: 20%;
@@ -78,7 +79,7 @@
   .ImgLogoTwo{
     position: relative;
     width: 30%;
-    height: 70px;
+    height: 90px;
   }
   
   .OverlayContent {

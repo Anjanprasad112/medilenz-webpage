@@ -2,7 +2,7 @@
 .Container {
     background-color: var(--text);
     width: 90%;
-    margin: 70px auto 30px auto;
+    margin: 90px auto 30px auto;
     padding:5px;
 }
 .VideoContainer {
@@ -95,6 +95,6 @@
     .Container{
         background-color: var(--text);
         width: 95%;
-        margin: 70px auto 30px auto;
+        margin: 90px auto 30px auto;
     }
 }
