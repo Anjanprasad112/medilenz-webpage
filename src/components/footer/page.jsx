@@ -71,17 +71,25 @@ specialities. Our doctors are from India and abroad.
                 <h6 className="text-uppercase mb-4 font-weight-bold">
                   Contact
                 </h6>
-                <p className="fw-400">
-                  <TfiLocationPin style={{color:"var(--bg"}}/> 5 Harbor Point Drive, #302s Mill Valley, CA 94941
+                <p>
+                  <TfiLocationPin style={{color:"var(--bg)",fontSize:"18px"}}/> <span className="fw-400">
+                  5 Harbor Point Drive, #302s Mill Valley, CA 94941
+                    </span>
                 </p>
                 <p>
-                  <FiMail style={{color:"var(--bg"}}/> sales@medilenzlit.com
+                  <FiMail style={{color:"var(--bg)",fontSize:"18px"}}/> <span className="fw-400">
+                  sales@medilenzlit.com
+                    </span>
                 </p>
                 <p>
-                  <FiPhone style={{color:"var(--bg"}}/> +1 (215) 219-1388
+                  <FiPhone style={{color:"var(--bg)",fontSize:"18px"}}/> <span className="fw-400">
+                  +1 (215) 219-1388
+                    </span> 
                 </p>
                 <p>
-                  <FiPhone style={{color:"var(--bg"}}/> +1 (215) 391-1705
+                  <FiPhone style={{color:"var(--bg)",fontSize:"18px"}}/> <span className="fw-400">
+                  +1 (215) 391-1705
+                    </span>
                 </p>
               </Col>
 
@@ -94,7 +102,7 @@ specialities. Our doctors are from India and abroad.
                   // style={{ backgroundColor: "#3b5998" }}
                   href="#!"
                 >
-                  <FaFacebookF style={{color: "var(--bg)",fontSize:"18px"}}/>
+                  <FaFacebookF style={{color: "var(--bg)",fontSize:"16px"}}/>
                 </Link>
                 <Link
                   className="btn btn-white btn-floating m-1"
@@ -139,12 +147,12 @@ specialities. Our doctors are from India and abroad.
 
           <div className="text-center w-100" style={{ backgroundColor: '#fff' }}>
           <div className={styles.BotmFooter}>
-            <div>© 2024 MEDILENZ. All Rights Reserved.</div>
-            <div>Developed by <span style={{ color:'var(--bg'}}>
+            <p>© 2024 MEDILENZ. All Rights Reserved.</p>
+            <p>Developed by <span style={{ color:'var(--bg'}}>
             Vraio Software Solutions Pvt Ltd
-              </span></div>
-            <div>Privacy Policy</div>
-            <div>Terms & Conditions</div>
+              </span></p>
+            <p>Privacy Policy</p>
+            <p>Terms & Conditions</p>
           </div>
         </div>
         </footer>
