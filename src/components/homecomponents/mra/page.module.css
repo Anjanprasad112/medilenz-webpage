@@ -30,7 +30,7 @@
     text-align: center;
     color: #707070;
     width: 90%;
-    margin: auto;
+    margin: 20px auto;
   }
   .Cont{
     width:100%;
@@ -44,7 +44,7 @@
     position: relative;
     padding-bottom: 20px; 
     border-radius: 12px;
-    width: 90%;
+    width: 80%;
     height: 500px;
   }
   
@@ -75,13 +75,13 @@
   }
   .ImgLogoOne{
     width: 20%;
-    height: 50px;
+    height: 40px;
     position: relative;
   }
   .ImgLogoTwo{
     position: relative;
     width: 30%;
-    height: 90px;
+    height: 70px;
   }
   
   .OverlayContent {
