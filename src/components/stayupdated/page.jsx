@@ -15,7 +15,7 @@ const StayUpdated = () => {
   return (
     <div className={styles.container}>
       <div>
-        <h3 className={styles.Text}>Stay updated with us</h3>
+        <h2 className={styles.Text}>Stay updated with us</h2>
       </div>
 
       <div
