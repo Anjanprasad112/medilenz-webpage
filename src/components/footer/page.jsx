@@ -148,9 +148,9 @@ specialities. Our doctors are from India and abroad.
           <div className="text-center w-100" style={{ backgroundColor: '#fff' }}>
           <div className={styles.BotmFooter}>
             <p>© 2024 MEDILENZ. All Rights Reserved.</p>
-            <p>Developed by <span style={{ color:'var(--bg'}}>
+            <p>Developed by <Link href="https://vraio.in/" style={{ color:'var(--bg'}}>
             Vraio Software Solutions Pvt Ltd
-              </span></p>
+              </Link></p>
             <p>Privacy Policy</p>
             <p>Terms & Conditions</p>
           </div>
