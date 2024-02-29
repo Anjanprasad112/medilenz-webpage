@@ -2,8 +2,14 @@
      background-color: var(--bg);
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0px 20px;
+    justify-content: space-evenly;
+    padding: 0px 45px;
+    height: 50px;
+}
+.Social{
+    display: flex;
+    align-items: center;
+
 }
 
 .Icon{
@@ -15,7 +21,7 @@
 
 .TextContainer{
     color: var(--text);
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
@@ -27,23 +33,24 @@
     display: flex;
     align-items: center;
     justify-content:center;
-    gap: 4px;
+    gap: 5px;
+    margin: 0 15px;
 }
 .ButtonContainer{
     padding: 6px;
 }
 .Button{
-    font-size: 12px; 
+    font-size: 15px; 
     background-color: var(--text);
     color: var(--bg);
-    padding:2px 12px;
+    padding:2px 14px;   
     border-radius:6px;
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    text-align: left;
+    text-align: center;
 }
 .BoxContainer:hover{
     cursor: pointer;
@@ -53,6 +60,42 @@
         display:none;
     }
     
+}
+
+@media screen and (max-width:1360px) {
+    .BoxContainer{
+        gap: 3px;
+        margin: 0 10px;
+    }
+    
+}
+
+@media screen and (max-width:1265px) {
+    .SubHeader{
+        padding:0 20px;
+    }
+    .BoxContainer{
+        margin: 0 5px;
+    }
+    
+}
+@media screen and (max-width:1125px) {
+    .SubHeader{
+        padding:0 10px
+    }
+    .BoxContainer{
+        margin: 0 5px;
+        gap: 2px;
+    }
+    .TextContainer{
+        font-size: 14px;
+    }
+    .Button{
+        font-size: 13px;
+    }
+    .Icon{
+        font-size: 14px;
+    }
 }
 /* @media screen and (max-width: 1751px ) {
     .TextContainer{

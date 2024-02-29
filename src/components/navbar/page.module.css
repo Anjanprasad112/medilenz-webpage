@@ -5,6 +5,7 @@
     position: sticky;
     top: 0;
     z-index: 10000;
+    height: 80px;
 }
 .NavTop{
     width:95%;
@@ -31,10 +32,10 @@
     margin: 0 10px;
 }
 .InputBox{
-    border: 1px solid var(--bg);
+    border: 1px solid #000;
     border-radius: 8px;
     padding: 3px 8px;
-    margin: 0 3px;
+    margin: 0 20px 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,10 +46,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 95%;
+    width: 80%;
     margin: auto;
     flex-wrap: inherit;
-    gap: 10px;
 }
 .Input{
     border: none;
@@ -58,7 +58,7 @@
     
 }
 .SearchIcon {
-  font-size: large;
+  font-size: 24px;
   color: var(--bg);
   cursor: pointer;
   transition: background-color 0.3s ease, opacity 0.3s ease, border-radius 0.3s ease, transform 0.3s ease;
@@ -82,8 +82,8 @@
 .Admin{
     /* width: 5vh;
     height:5vh; */
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
     border:1px solid var(--bg);
     display: flex;
     align-items: center;
@@ -101,7 +101,7 @@
   letter-spacing: normal;
   text-align: left;
   margin: 0 15px;
-  font-size: 15px;
+  font-size: 18px;
 
   /* white-space: nowrap; */
 }
@@ -114,7 +114,7 @@
     letter-spacing: normal;
     text-align: left;
     margin: 0 4px;
-    font-size: 15px;
+    font-size: 18px;
     text-decoration: none;
 }
 
@@ -144,15 +144,17 @@
     }
     .Contain{
         width: 100%;
+        height: 100%;
     }
     .InputBox{
         justify-content: space-between;
         width: 60%;
-        margin: 0;
+        margin: 3px;
         padding: 1px 6px;
     }
     .Input{
-        font-size: 10px;
+        font-size: 14px;
+        width: 95%;
     }
     .Drop{
         justify-content:flex-start;
@@ -160,7 +162,11 @@
         gap: 10px;
     }
     .customtextdrop{
-        margin: 0;
+        margin: 2px;
+    }
+    .customtext{
+        margin:2px;
+
     }
 }
 @media screen and (max-width:1275px) {
@@ -175,7 +181,7 @@
 @media screen and (max-width:1150px) {
     .customtext{
         margin: 0 4px;
-        font-size: 15px;
+        font-size: 18px;
     }
     .Drop{
         margin: 0 2px;
@@ -187,6 +193,31 @@
     }
     .Drop{
         margin : 0 1px;
+    }
+    
+}
+@media screen and (max-width:1550px) {
+    .TopCon{
+        width:85%;
+    }
+    
+}
+@media screen and (max-width:1375px){
+    .TopCon{
+        width:90%;
+    }
+}
+@media screen and (max-width:1215px){
+    .TopCon{
+        width:95%;
+    }
+}
+@media screen and (max-width:1045px){
+    .customtext{
+        font-size: 16px;
+    }
+    .customtextdrop{
+        font-size: 16px;
     }
     
 }

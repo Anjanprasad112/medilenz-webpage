@@ -9,7 +9,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 const SubHeader = () => {
   return (
-    <div className={`container-fluid ${styles.SubHeader}`}>
+    <div className={`${styles.SubHeader}`}>
       <div className={styles.BoxContainer}>
         <div className={styles.ImgContainer}>
           <BsTelephone className={styles.Icon} style={{ color: "#fff" }} />
@@ -38,6 +38,7 @@ const SubHeader = () => {
           <div className={styles.Button}>Signup for a special discount %</div>
         </div>
       </div>
+      <div className={styles.Social}>
       <div className={styles.BoxContainer}>
         <FaFacebookF className={styles.Icon} style={{color: "#fff"}}/>
       </div>
@@ -52,6 +53,7 @@ const SubHeader = () => {
       </div>
       <div className={styles.BoxContainer}>
         <FaYoutube className={styles.Icon} style={{color: "#fff"}}/>
+      </div>
       </div>
     </div>
   );

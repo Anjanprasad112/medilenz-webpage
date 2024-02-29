@@ -30,7 +30,7 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <Link
                 className={`nav-link ${styles.customtext}`}
@@ -144,7 +144,7 @@ const Navbar = () => {
             </li>
           </ul>
           <div className={styles.InputBox}>
-            <input type="text" className={styles.Input} />
+            <input type="text" placeholder="Search here" className={styles.Input} />
             <CiSearch className={styles.SearchIcon} />
           </div>
 
