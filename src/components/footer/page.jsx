@@ -1,11 +1,11 @@
 import styles from "./page.module.css";
-// import {
-//   FaInstagram,
-//   FaTwitter,
-//   FaLinkedin,
-//   FaYoutube,
-//   FaFacebookF,
-// } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaTwitter,
+  FaLinkedinIn,
+  FaYoutube,
+  FaFacebookF,
+} from "react-icons/fa";
 // import { BsTelephone } from "react-icons/bs";
 import { TfiLocationPin } from "react-icons/tfi";
 // import { IoMailOutline } from "react-icons/io5";
@@ -13,14 +13,14 @@ import { TfiLocationPin } from "react-icons/tfi";
 import SignUp from "./signup/page";
 import { Container, Row, Col } from "react-bootstrap";
 import { FiMail, FiPhone } from "react-icons/fi";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaGoogle,
-  FaInstagram,
-  FaLinkedinIn,
-  FaGithub,
-} from "react-icons/fa";
+// import {
+//   FaFacebookF,
+//   FaTwitter,
+//   FaGoogle,
+//   FaInstagram,
+//   FaLinkedinIn,
+//   FaGithub,
+// } from "react-icons/fa";
 import Link from "next/link";
 
 function Footer() {
@@ -108,7 +108,7 @@ specialities. Our doctors are from India and abroad.
                   // style={{ backgroundColor: "#dd4b39" }}
                   href="#!"
                 >
-                  <FaGoogle style={{color: "var(--bg)"}}/>
+                  <FaYoutube style={{color: "var(--bg)"}}/>
                 </Link>
                 <Link
                   className="btn btn-white btn-floating m-1"
