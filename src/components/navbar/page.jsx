@@ -6,7 +6,8 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav className={`navbar navbar-expand-lg bg-white  ${styles.Contain}`}>
+    <nav className={`navbar navbar-expand-lg sticky-top bg-white  ${styles.Contain}`}>
+      {/* <div className={styles.NavTop}> */}
       <div className={styles.TopCon}>
         <Link className={` ${styles.LogoContainer} `} href="/">
           <Image
@@ -152,6 +153,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      {/* </div> */}
     </nav>
   );
 };
