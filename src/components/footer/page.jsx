@@ -38,7 +38,7 @@ function Footer() {
                 <h6 className="text-uppercase mb-4 font-weight-bold">
                 We @ Medilenz
                 </h6>
-                <p>
+                <p className="fw-400">
                 Our team is comprised of doctors, each possessing
 more than a decade of clinical experience in various
 specialities. Our doctors are from India and abroad.
@@ -52,16 +52,16 @@ specialities. Our doctors are from India and abroad.
                   Links
                 </h6>
                 <p>
-                  <Link href="#" className="text-black text-decoration-none">Blog</Link>
+                  <Link href="#" className="text-black text-decoration-none fw-400">Blog</Link>
                 </p>
                 <p>
-                  <Link href="#" className="text-black text-decoration-none">News&Gallery</Link>
+                  <Link href="#" className="text-black text-decoration-none fw-400">News&Gallery</Link>
                 </p>
                 <p>
-                  <Link href="#" className="text-black text-decoration-none">Became Patners</Link>
+                  <Link href="#" className="text-black text-decoration-none fw-400">Became Patners</Link>
                 </p>
                 <p>
-                  <Link href="#" className="text-black text-decoration-none">About Us</Link>
+                  <Link href="#" className="text-black text-decoration-none fw-400">About Us</Link>
                 </p>
               </Col>
 
@@ -71,7 +71,7 @@ specialities. Our doctors are from India and abroad.
                 <h6 className="text-uppercase mb-4 font-weight-bold">
                   Contact
                 </h6>
-                <p>
+                <p className="fw-400">
                   <TfiLocationPin style={{color:"var(--bg"}}/> 5 Harbor Point Drive, #302s Mill Valley, CA 94941
                 </p>
                 <p>
@@ -94,35 +94,35 @@ specialities. Our doctors are from India and abroad.
                   // style={{ backgroundColor: "#3b5998" }}
                   href="#!"
                 >
-                  <FaFacebookF style={{color: "var(--bg)"}}/>
+                  <FaFacebookF style={{color: "var(--bg)",fontSize:"18px"}}/>
                 </Link>
                 <Link
                   className="btn btn-white btn-floating m-1"
                   // style={{ backgroundColor: "#55acee" }}
                   href="#!"
                 >
-                  <FaTwitter style={{color: "var(--bg)"}}/>
+                  <FaTwitter style={{color: "var(--bg)",fontSize:"18px"}}/>
                 </Link>
                 <Link
                   className="btn btn-white btn-floating m-1"
                   // style={{ backgroundColor: "#dd4b39" }}
                   href="#!"
                 >
-                  <FaYoutube style={{color: "var(--bg)"}}/>
+                  <FaYoutube style={{color: "var(--bg)",fontSize:"18px"}}/>
                 </Link>
                 <Link
                   className="btn btn-white btn-floating m-1"
                   // style={{ backgroundColor: "#ac2bac" }}
                   href="#!"
                 >
-                  <FaInstagram style={{color: "var(--bg)"}}/>
+                  <FaInstagram style={{color: "var(--bg)",fontSize:"18px"}}/>
                 </Link>
                 <Link
                   className="btn btn-white btn-floating m-1"
                   // style={{ backgroundColor: "#0082ca" }}
-                  href="#!"
+                  href="#"
                 >
-                  <FaLinkedinIn style={{color: "var(--bg)"}}/>
+                  <FaLinkedinIn style={{color: "var(--bg)",fontSize:"18px"}}/>
                 </Link>
                 {/* <a
                   className="btn btn-white btn-floating m-1"
