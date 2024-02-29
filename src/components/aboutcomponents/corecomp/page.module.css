@@ -102,7 +102,7 @@
 
   .Title{
     padding: 2px;
-    font-size: xx-large;
+    font-size: 32px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -112,7 +112,7 @@
   color: #000;
   }
   .Text{
-    width: 80%;
+    width: 75%;
     margin: auto;
     display: flex;
     align-items: center;
