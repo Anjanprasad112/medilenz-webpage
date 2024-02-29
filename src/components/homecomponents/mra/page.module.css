@@ -17,7 +17,7 @@
     height: 100%; 
   }
   .Container {
-    width: 85%;
+    width: 85%; 
     margin: auto;
   }
   .Text{
@@ -44,8 +44,8 @@
     position: relative;
     padding-bottom: 20px; 
     border-radius: 12px;
-    width: 100%;
-    height: 400px;
+    width: 90%;
+    height: 500px;
   }
   
   .OverlayContainer {
@@ -92,6 +92,9 @@
     .TextContainer,
     .ImageContainer {
       padding: 10px;
+    }
+    .ImageContainer{
+      height: 350px;
     }
     
     
