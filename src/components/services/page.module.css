@@ -89,7 +89,7 @@
 
 @media screen and (max-width:468px){
     .CardS{
-            width: 280px;
+            width: 290px;
     }
 }
 
@@ -98,6 +98,6 @@
         padding: 0px;
     }
     .CardS{
-        width: 260px;
+        width: 285px;
     }
 }
