@@ -1,0 +1,14 @@
+.BotmFooter{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+@media screen and (max-width:580px) {
+    .BotmFooter{
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content: center;
+    }
+}
