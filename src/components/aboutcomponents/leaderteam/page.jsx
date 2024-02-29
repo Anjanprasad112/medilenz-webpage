@@ -16,11 +16,11 @@ const Leader = () => {
     <div className={styles.container}>
         <div className={styles.backgroundImage}></div>
       <div>
-        <h3 className={styles.Text}>Leadership Team</h3>
+        <h2 className={styles.Text}>Leadership Team</h2>
       </div>
 
       <div
-        className={`d-flex flex-wrap justify-content-center gap-4 align-items-center ${styles.Box}`}
+        className={`d-flex flex-wrap justify-content-center align-items-center ${styles.Box}`}
       >
         {cards.map((card)=>(
         <div key={card.id}>

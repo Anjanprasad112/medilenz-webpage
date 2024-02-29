@@ -1,11 +1,17 @@
 .Container{
     width: 100%;
     background-color: #f6f6f6;
-    padding:20px 60px;
+    padding: 20px 0;
+
+}
+.Top{
     display: flex;
     justify-content:space-around;
     align-items:center;
     gap: 20px;
+    width: 85%;
+    margin: 0 auto;
+
 }
 .ImageContainer{
     border-radius: 16px;
@@ -50,9 +56,10 @@
 }
 
 @media screen and (max-width:768px) {
-    .Container{
+    .Top{
         flex-direction: column;
-        padding: 20px 10px;
+        width: 95%;
+        margin: auto;
     }
     .ImageContainer{
         width: 60%;
@@ -63,4 +70,11 @@
     .Text{
         text-align: center;
     }
+}
+
+@media screen and (max-width:580px) {
+    .ImageContainer{
+        width: 90%;
+    }
+    
 }

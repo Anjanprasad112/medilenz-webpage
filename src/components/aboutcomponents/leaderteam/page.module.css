@@ -17,8 +17,9 @@
     flex-direction: column;
     align-items: center;
     justify-content : center;
-    margin-top: 20px;
     position: relative;
+    width: 85%;
+    margin: 0px auto;
 
 }
 .backgroundImage {
@@ -55,7 +56,9 @@
 
 .Box{
     display: flex;
-    padding: 20px;
+    width: 85%;
+    margin: auto;
+    gap: 40px;
 
 }
 
@@ -76,5 +79,19 @@
 @media screen and (max-width:360px) {
     .Box{
         padding:10px 0px;
+    }
+}
+@media screen and (max-width:580px){
+    .Box{
+        width:95%;
+        gap: 10px;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    .Box{
+        width:90%;
+        gap: 20px;
     }
 }

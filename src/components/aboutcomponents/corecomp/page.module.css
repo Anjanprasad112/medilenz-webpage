@@ -112,7 +112,8 @@
   color: #000;
   }
   .Text{
-    padding: 5px 80px;
+    width: 80%;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,6 +131,10 @@
     
       .Image:hover .overlay {
         opacity: 1;
+      }
+      .Text{
+        width: 95%;
+        margin: auto;
       }
   }
   
