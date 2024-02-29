@@ -30,19 +30,25 @@ const StayUpdated = () => {
             <Image
               src={card.imageSrc}
               className="card-img-top"
+              style={{borderRadius:"16px"}}
               alt="Service Image"
               width={300}
               height={200}
             />
+            <div className={styles.Date}>
+              {card.date}
+            </div>
             <div className="card-body">
               
               <h6 className="card-subtitle mb-2 text-muted">{card.subtitle}</h6>
               <h5 className="card-title">{card.title}</h5>
-              <p className="card-text">
+              <div className={styles.TextDesc}>
                {card.text}
-              </p>
-              <Link href="#" className="btn btn-primary">
-                Read More
+              </div>
+              <Link href="#" className={styles.Read}>
+                Read More <span className={styles.Arrow}>
+                &rarr;
+                  </span> 
               </Link>
             </div>
           </div>

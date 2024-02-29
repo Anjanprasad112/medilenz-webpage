@@ -21,9 +21,44 @@
     margin-top: 20px;
 
 }
+.Date{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    padding: 2px 6px;
+    font-weight: 600;
+    font-size: 13px;
+    background-color: #edf2f8;
+    border-radius: 8px;
+    color: var(--bg);
+}
+.Arrow{
+    font-size:20px;
+}
+.Read{
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.62;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--bg);
+    cursor: pointer;
+}
+.TextDesc{
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.55;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
 .Card{
     border: 1.5px solid var(--bg);
     width: 20rem;
+    border-radius: 16px;
 }
 .Text{
     padding : 20px 0px;
