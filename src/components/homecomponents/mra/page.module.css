@@ -11,6 +11,10 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+  .Title{
+    color: black;
+    font-size:32px;
+  }
   .ImageBox{
     border-radius: 8px; 
     width: 100%; 

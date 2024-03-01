@@ -16,16 +16,13 @@
 }
 
 .VideoStyle {
-   width: 450px;
-   height: 225px;
-}
+   width: 80%;}
 .Box{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     margin: auto;
-    gap: 20px;
 }
 .DescTitle{
     font-weight: 500;
@@ -44,7 +41,7 @@
     text-align: left;
     color: #707070;
     padding-bottom: 5px;
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -90,13 +87,15 @@
         width : 300px;
     }
     .VideoStyle{
-        width : 300px;
+        width: 275px;
+    height: 200px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 990px) {
     .Box{
         flex-direction: column;
+        gap: 30px;
     }
     .Container{
         background-color: var(--text);
@@ -106,5 +105,8 @@
     .Description{
         width:95%;
         margin: auto;
+    }
+    .VideoStyle{
+        width: 65%;
     }
 }

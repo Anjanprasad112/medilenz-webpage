@@ -8,7 +8,7 @@ const RecordAnalysis = () => {
       <div className={`${styles.Cont}`}>
           <div className={`row align-items-center justify-content-center`}>
             <div className={`col ${styles.TextContainer}`}>
-              <h2 className="text-center m-4">Medilenz Record Analysis</h2>
+              <h2 className={`text-center m-4 ${styles.Title}`}>Medilenz Record Analysis</h2>
               <div className={styles.Text}>
                 Composed of legal experts specializing in healthcare,
                 orchestrates legal strategies navigates regulatory complexities,
