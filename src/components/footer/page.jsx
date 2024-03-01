@@ -36,84 +36,84 @@ function Footer() {
           <Container className=" pb-0">
             <Row>
               <Col md={3} lg={3} xl={3} className="mx-auto mt-3">
-                <h6 className="text-uppercase mb-4 font-weight-bold">
+                <div className={`text-uppercase mb-4 font-weight-bold ${styles.Title}`}>
                   We @ Medilenz
-                </h6>
-                <p className="fw-400">
+                </div>
+                <div className={styles.ComDesc}>
                   Our team is comprised of doctors, each possessing more than a
                   decade of clinical experience in various specialities. Our
                   doctors are from India and abroad.
-                </p>
+                </div>
               </Col>
 
               <hr className="w-100 clearfix d-md-none" />
 
               <Col md={2} lg={2} xl={2} className="mx-auto mt-3">
-                <h6 className="text-uppercase mb-4 font-weight-bold">Links</h6>
-                <p>
+                <h6 className={`text-uppercase mb-4 font-weight-bold ${styles.Title}`}>Links</h6>
+                <div className={styles.Links}>
                   <Link
                     href="#"
                     className="text-black text-decoration-none fw-400"
                   >
                     Blog
                   </Link>
-                </p>
-                <p>
+                </div>
+                <div className={styles.Links}>
                   <Link
                     href="#"
                     className="text-black text-decoration-none fw-400"
                   >
                     News&Gallery
                   </Link>
-                </p>
-                <p>
+                </div>
+                <div className={styles.Links}>
                   <Link
                     href="#"
                     className="text-black text-decoration-none fw-400"
                   >
                     Became Patners
                   </Link>
-                </p>
-                <p>
+                </div>
+                <div className={styles.Links}>
                   <Link
                     href="#"
                     className="text-black text-decoration-none fw-400"
                   >
                     About Us
                   </Link>
-                </p>
+                </div>
               </Col>
 
               <hr className="w-100 clearfix d-md-none" />
 
               <Col md={4} lg={4} xl={4} className="mx-auto mt-3">
-                <h6 className="text-uppercase mb-4 font-weight-bold">
+                <h6 className={`text-uppercase mb-4 font-weight-bold ${styles.Title}`}>
                   Contact
                 </h6>
-                <p>
+                <div className={styles.Contacts}>
                   <TfiLocationPin
                     style={{ color: "var(--bg)", fontSize: "18px" }}
                   />{" "}
                   <span className="fw-400">
                     5 Harbor Point Drive, #302s Mill Valley, CA 94941
                   </span>
-                </p>
-                <p>
+                </div>
+                <div className={styles.Contacts}>
                   <FiMail style={{ color: "var(--bg)"}} />{" "}
                   <span className="fw-400">sales@medilenzlit.com</span>
-                </p>
-                <p>
+                </div>
+                <div className={styles.Contacts}>
                   <FiPhone style={{ color: "var(--bg)"}} />{" "}
                   <span className="fw-400">+1 (215) 219-1388</span>
-                </p>
-                <p>
+                </div>
+                <div className={styles.Contacts}>
                   <FiPhone style={{ color: "var(--bg)"}} />{" "}
                   <span className="fw-400">+1 (215) 391-1705</span>
-                </p>
+                </div>
               </Col>
 
               <Col md={3} lg={2} xl={2} className="mx-auto mt-3">
-                <h6 className="text-uppercase mb-4 font-weight-bold">
+                <h6 className={`text-uppercase mb-4 font-weight-bold ${styles.Title}`}>
                   Follow us
                 </h6>
                 <Link
@@ -126,23 +126,23 @@ function Footer() {
                   />
                 </Link>
                 <Link
-                  className="btn btn-white btn-floating m-1"
+                  className={`btn btn-white btn-floating m-1 ${styles.Logo}`}
                   // style={{ backgroundColor: "#55acee" }}
                   href="#!"
                 >
                   <FaXTwitter
-                    style={{ color: "var(--bg)", }}
+                    style={{ color: "var(--bg)" }}
                   />
                 </Link>
                 <Link
-                  className="btn btn-white btn-floating m-1"
+                  className={`btn btn-white btn-floating m-1 ${styles.Logo}`}
                   // style={{ backgroundColor: "#dd4b39" }}
                   href="#!"
                 >
                   <FaYoutube style={{ color: "var(--bg)" }} />
                 </Link>
                 <Link
-                  className="btn btn-white btn-floating m-1"
+                  className={`btn btn-white btn-floating m-1 ${styles.Logo}`}
                   // style={{ backgroundColor: "#ac2bac" }}
                   href="#!"
                 >
@@ -151,7 +151,7 @@ function Footer() {
                   />
                 </Link>
                 <Link
-                  className="btn btn-white btn-floating m-1"
+                  className={`btn btn-white btn-floating m-1 ${styles.Logo}`}
                   // style={{ backgroundColor: "#0082ca" }}
                   href="#"
                 >
@@ -170,22 +170,22 @@ function Footer() {
             </Row>
           </Container>
 
-          <hr className="w-80" />
+          <hr className="w-80"/>
 
           <div
             className="text-center w-100"
             style={{ backgroundColor: "#fff" }}
           >
             <div className={styles.BotmFooter}>
-              <p>© 2024 MEDILENZ. All Rights Reserved.</p>
-              <p>
+              <div className={styles.EndLine}>© 2024 MEDILENZ. All Rights Reserved.</div>
+              <div className={styles.EndLine}>
                 Developed by{" "}
                 <Link href="https://vraio.in/" style={{ color: "var(--bg" }}>
                   Vraio Software Solutions Pvt Ltd
                 </Link>
-              </p>
-              <p>Privacy Policy</p>
-              <p>Terms & Conditions</p>
+              </div>
+              <div className={styles.EndLine}>Privacy Policy</div>
+              <div className={styles.EndLine}>Terms & Conditions</div>
             </div>
           </div>
         </footer>

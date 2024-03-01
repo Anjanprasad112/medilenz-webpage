@@ -4,6 +4,56 @@
     align-items:center;
     font-weight: 600;
 }
+.EndLine{
+    font-size:16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.64;
+    letter-spacing: normal;
+    color:black;
+    margin : 2px;
+}
+.ComDesc{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.64;
+    letter-spacing: normal;
+    /* color: #707070; */
+    color: black;
+    margin: 4px;
+}
+.Logo{
+    font-size: 16px;
+}
+.Contacts{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.64;
+    letter-spacing: normal;
+    /* color: #707070; */
+    color: black;
+    margin: 4px;
+
+}
+.Links{
+    font-weight: normal;
+    margin: 4px;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.64;
+    letter-spacing: normal;
+}
+.Title{
+    font-size:18px;
+    font-weight: 600;
+    color: black;
+}
 
 @media screen and (max-width:580px) {
     .BotmFooter{
