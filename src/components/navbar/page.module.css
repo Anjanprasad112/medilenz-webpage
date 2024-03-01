@@ -46,7 +46,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
+    width: 85%;
     margin: auto;
     flex-wrap: inherit;
 }
@@ -100,7 +100,7 @@
   line-height: 0.91;
   letter-spacing: normal;
   text-align: left;
-  margin: 0 15px;
+  margin: 0 20px;
   font-size: 18px;
 
   /* white-space: nowrap; */
@@ -160,28 +160,32 @@
         justify-content:flex-start;
         align-items: center;
         gap: 10px;
+        margin: 0 8px;
     }
     .customtextdrop{
         margin: 2px;
     }
     .customtext{
-        margin:2px;
+        margin: 0px 2px;
 
     }
 }
 @media screen and (max-width:1275px) {
     .customtext{
-        margin: 0 10px;
+        margin: 0 5px;
     }
     .Drop{
         margin: 0 5px;
     }
     
 }
-@media screen and (max-width:1150px) {
+@media screen and (max-width:1220px) {
     .customtext{
-        margin: 0 4px;
-        font-size: 18px;
+        margin: 0 2px;
+        font-size: 16px;
+    }
+    .customtextdrop{
+        font-size:16px;
     }
     .Drop{
         margin: 0 2px;
@@ -189,16 +193,20 @@
 }
 @media screen and (max-width:1100px) {
     .customtext{
-        margin: 0 1px;
+        margin: 0 0px;
     }
     .Drop{
-        margin : 0 1px;
+        margin : 0 0px;
     }
+    
     
 }
 @media screen and (max-width:1550px) {
     .TopCon{
         width:85%;
+    }
+    .customtext{
+        margin: 0 15px;
     }
     
 }
@@ -206,18 +214,25 @@
     .TopCon{
         width:90%;
     }
+    .customtext{
+        margin: 0 10px;
+    }
 }
 @media screen and (max-width:1215px){
     .TopCon{
         width:95%;
     }
 }
-@media screen and (max-width:1045px){
+@media screen and (max-width:1090px){
     .customtext{
-        font-size: 16px;
+        font-size: 14px;
+        margin: 0 2px;
     }
     .customtextdrop{
-        font-size: 16px;
+        font-size: 14px;
+    }
+    .Input{
+        font-size: 14px;
     }
     
 }
