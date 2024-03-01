@@ -27,13 +27,13 @@ function Footer() {
   return (
     <>
       <SignUp />
-      <div className="container-xl
+      <div className="container-sm
        my-3">
         <footer
           className="text-center text-lg-start text-black"
           style={{ backgroundColor: "#fff" }}
         >
-          <Container className=" pb-0">
+          <Container className={`pb-0 ${styles.TopCon}`}>
             <Row>
               <Col md={3} lg={3} xl={3} className="mx-auto mt-3">
                 <div className={`text-uppercase mb-4 font-weight-bold ${styles.Title}`}>

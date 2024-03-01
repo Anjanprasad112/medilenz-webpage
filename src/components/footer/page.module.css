@@ -3,6 +3,7 @@
     justify-content:space-between;
     align-items:center;
     font-weight: 600;
+    width: 100%;
 }
 .EndLine{
     font-size:16px;
@@ -27,6 +28,22 @@
 }
 .Logo{
     font-size: 16px;
+}
+.TopCon{
+    margin:0;
+}
+@media screen and (min-width: 1400px) {
+    .TopCon{
+        margin-left: 4%;
+    }
+    .BotmFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    width: 100%;
+    margin-left: 2%;
+    }
 }
 .Contacts{
     font-size: 16px;
