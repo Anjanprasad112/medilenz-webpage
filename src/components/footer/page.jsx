@@ -180,7 +180,7 @@ function Footer() {
               <div className={styles.EndLine}>© 2024 MEDILENZ. All Rights Reserved.</div>
               <div className={styles.EndLine}>
                 Developed by{" "}
-                <Link href="https://vraio.in/" style={{ color: "var(--bg" }}>
+                <Link href="https://vraio.in/" target="_blank" style={{ color: "var(--bg" }}>
                   Vraio Software Solutions Pvt Ltd
                 </Link>
               </div>
