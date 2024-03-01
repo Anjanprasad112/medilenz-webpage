@@ -1,6 +1,6 @@
 .Header {
   text-align: center;
-  margin-top: 25px;
+  margin: 25px;
   background-color: #fcfffc;
 }
 
@@ -50,4 +50,12 @@
     width: 100%;
   }
 }
+
+/* 
+@media screen and (max-width:768px){
+  .Header{
+    margin: 2px;
+  }
+  
+} */
 
