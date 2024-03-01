@@ -110,26 +110,27 @@
     }
   }
   
-@media screen and (max-width: 480px) {
-.Images{
-  height: 480px;
-}
-.ImageWrapper{
-  height:460px;
-}
-.BG{
-  height: 96%;
-}
-.Button{
-  font-size:14px;
-}
-}
+
 @media screen and (max-width :1100px){
   .Button{
     font-size: 20px;
   }
 
 }
+@media screen and (max-width: 480px) {
+  .Images{
+    height: 480px;
+  }
+  .ImageWrapper{
+    height:460px;
+  }
+  .BG{
+    height: 96%;
+  }
+  .Button{
+    font-size:14px;
+  }
+  }
 
 /* @media screen and (max-width :1100px){
   .Button{
