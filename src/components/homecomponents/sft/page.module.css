@@ -1,32 +1,35 @@
 
 .Container {
     background-color: var(--text);
-    width: 85%;
-    margin: 100px auto 30px 10vw;
-    padding:5px;
+    width: 75%;
+    margin: 100px auto 30px auto;
+
 }
 .VideoContainer {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    height: 225px;
-    width: 350px;
+    /* height: 235px;
+    width: 350px; */
+    width: 100%;
 }
 
 .VideoStyle {
-   width: 350px;
+   width: 450px;
    height: 225px;
 }
 .Box{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 25px;
+    width: 100%;
+    margin: auto;
+    gap: 20px;
 }
 .DescTitle{
     font-weight: 500;
-    padding : 5px;
+    /* padding : 5px; */
     color: black;
     font-size :32px;
     text-align: center;
@@ -40,8 +43,8 @@
     letter-spacing: normal;
     text-align: left;
     color: #707070;
-    padding: 5px;
-    width: 85%;
+    padding-bottom: 5px;
+    width: 90%;
     margin: 0 auto;
 }
 
