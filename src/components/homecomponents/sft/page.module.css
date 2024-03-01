@@ -1,112 +1,112 @@
-
 .Container {
-    background-color: var(--text);
-    width: 75%;
-    margin: 100px auto 30px auto;
-
+  background-color: var(--text);
+  width: 75%;
+  margin: 100px auto 30px auto;
 }
 .VideoContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    /* height: 235px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* height: 235px;
     width: 350px; */
-    width: 100%;
+  width: 100%;
 }
 
 .VideoStyle {
-   width: 80%;}
-.Box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin: auto;
+  width: 80%;
 }
-.DescTitle{
-    font-weight: 500;
-    /* padding : 5px; */
-    color: black;
-    font-size :32px;
-    text-align: center;
+.Box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
 }
-.Description{
-    font-size: 16px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.63;
-    letter-spacing: normal;
-    text-align: left;
-    color: #707070;
-    padding-bottom: 5px;
-    width: 85%;
-    margin: 0 auto;
+.DescTitle {
+  font-weight: 500;
+  /* padding : 5px; */
+  color: black;
+  font-size: 32px;
+  text-align: center;
+}
+.Description {
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+  padding-bottom: 5px;
+  width: 85%;
+  margin: 0 auto;
 }
 
 .ImageContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    height: 275px;
-    width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 275px;
+  width: 400px;
 }
 
 .TextContainer {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   align-items: center;
-   align-self: stretch;
-    color: black;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  color: black;
+  width: 100%;
 }
-.ImageStyle{
-    /* position: relative; */
-    height: 300px;
-    width: 300px;
+.ImageStyle {
+  /* position: relative; */
+  height: 300px;
+  width: 300px;
+}
+
+
+
+@media screen and (max-width: 990px) {
+  .Box {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .Container {
+    background-color: var(--text);
+    width: 95%;
+    margin: 90px auto 30px auto;
+  }
+  .Description {
+    width: 95%;
+    margin: auto;
+  }
+  .VideoStyle {
+    width: 65%;
+  }
 }
 @media (max-width: 768px) {
     .TextContainer {
-        padding: 5px;
+      padding: 5px;
     }
-    .Description{
-        text-align: center;
+    .Description {
+      text-align: center;
     }
-}
+  }
 
-@media screen and (max-width: 480px) {
-   
-    .ImageContainer{
-        height : 200px;
-        width : 200px;
+  @media screen and (max-width: 480px) {
+    .ImageContainer {
+      height: 200px;
+      width: 200px;
     }
-    .VideoContainer{
-        width : 300px;
+    .VideoContainer {
+      width: 300px;
     }
-    .VideoStyle{
-        width: 275px;
-    height: 200px;
+    .VideoStyle {
+      width: 275px;
+      height: 200px;
     }
-}
-
-@media screen and (max-width: 990px) {
-    .Box{
-        flex-direction: column;
-        gap: 30px;
-    }
-    .Container{
-        background-color: var(--text);
-        width: 95%;
-        margin: 90px auto 30px auto;
-    }
-    .Description{
-        width:95%;
-        margin: auto;
-    }
-    .VideoStyle{
-        width: 65%;
-    }
-}
+  }
