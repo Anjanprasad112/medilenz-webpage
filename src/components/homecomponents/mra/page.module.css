@@ -104,9 +104,12 @@
   @media screen and (max-width: 600px) {
     .ImgLogoOne{
       height:35px;
+      width: 35%;
     }
     .ImgLogoTwo{
       height:60px;
+      width: 45%;
+
     }
     .Text{
       width:95%;
