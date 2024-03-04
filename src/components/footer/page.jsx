@@ -112,7 +112,7 @@ function Footer() {
                 </div>
               </Col>
 
-              <Col md={3} lg={2} xl={2} className="mx-auto mt-3">
+              <Col md={3} lg={2} xl={3} className="mx-auto mt-3">
                 <h6 className={`text-uppercase mb-4 font-weight-bold ${styles.Title}`}>
                   Follow us
                 </h6>
