@@ -11,7 +11,7 @@ const About = () => {
     <>
       <div className={styles.Title}>
         <div className={styles.Container}></div>
-        About Us
+        <div className={styles.Header}>About Us</div> 
       </div>
       <Top />
       <Core />
