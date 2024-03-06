@@ -4,6 +4,7 @@ import styles from './page.module.css'
 const Partenrs = () => {
   return (
     <div className={styles.Container}>
+      <div className={styles.SubContainer}>
     <div className={styles.ImageContainer}>
       <Image src="/Partner_1.jpg" fill className={styles.Image} alt="image" />
     </div>
@@ -16,6 +17,7 @@ healthcare regulations within the dynamic
 intersection of law and medicine.
       </div>
       <div className="btn btn-primary my-2 text-center text-white">View Benefits</div>
+    </div>
     </div>
   </div>
   )

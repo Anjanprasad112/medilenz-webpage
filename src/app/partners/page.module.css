@@ -8,17 +8,21 @@
 }
 
 .Title{
-    color: black;
     margin-bottom:15px;
+
+}   
+
+.Header{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: xx-large;
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.52;
     letter-spacing: normal;
     text-align: center;
+    font-size: 32px;
+    margin: 0px;
     color: #000;
-}   
+}

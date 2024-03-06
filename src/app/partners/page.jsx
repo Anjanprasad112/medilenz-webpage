@@ -9,7 +9,7 @@ const page = () => {
     <>
      <div className={styles.Title}>
         <div className={styles.Container}></div>
-        Partners
+        <div className={styles.Header}>Partners</div> 
       </div>
       <SliderComp/>
       <Partenrs/>

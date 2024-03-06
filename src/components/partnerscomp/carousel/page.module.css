@@ -9,7 +9,7 @@
 }
 
 .Title {
-  font-size: xx-large;
+  font-size: 32px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal; 
@@ -21,7 +21,7 @@
 }
 
 .Text {
-  font-size: large;
+  font-size: 16px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -30,18 +30,23 @@
   text-align: center;
   color: #707070;
   text-align: center;
+  width: 85%;
+  margin: auto;
+
 }
 
 .Slider {
-  padding: 30px 20px;
+  padding: 30px 0px;
   background-color: #fff;
+  width: 80%;
+  margin: auto;
   /* box-shadow: 0 5px 30px 0 rgba(24, 114, 221, 0.2); */
   overflow: hidden; /* Hide the horizontal scrollbar */
 }
 
 .ImageContainer {
-  box-shadow: 0 0 0 1.5px var(--bg);
-  /* box-shadow: 0 5px 10px 0 rgba(24, 114, 221, 0.2); */
+  /* box-shadow: 0 0 0 1.5px var(--bg); */
+  box-shadow: 0 5px 10px 0 rgba(24, 114, 221, 0.2);
   background-color: #fff;
 
   margin: 10px;
@@ -49,7 +54,9 @@
   border-radius: 16px;
   flex-direction: column;
   align-items: center;
-  width: calc(100% - 20px);
+  width: 90%;
+  height: 175px;
+  /* width: calc(100% - 20px); */
 }
 
 .Image {
