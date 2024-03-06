@@ -59,7 +59,7 @@ const Navbar = () => {
             </li>
             <li className={`nav-item dropdown ${styles.Drop}`}>
               <Link
-                className={` ${styles.customtextdrop}`}
+                className={`nav-link ${styles.customtextdrop}`}
                 href="/partners"
                 aria-current="page"
               >
@@ -102,7 +102,7 @@ const Navbar = () => {
             </li>
             <li className={`nav-item dropdown ${styles.Drop}`}>
               <Link
-                className={`${styles.customtextdrop}`}
+                className={`nav-link ${styles.customtextdrop}`}
                 href="/careers"
                 aria-current="page"
               >
