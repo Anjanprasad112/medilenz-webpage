@@ -81,12 +81,13 @@ function MyForm() {
             </fieldset>
             <fieldset className={styles.fieldset}>
               <div className={styles.Text}>Other Services (Please Specify)</div>
-              <Form.Control as="textarea" rows={3} placeholder="If any kindly mention.." name="otherServices" value={formData.otherServices} onChange={handleChange} />
+              {/* Adjust the width as needed */}
+        <Form.Control as="textarea" rows={3} placeholder="If any kindly mention.." name="otherServices" value={formData.otherServices} onChange={handleChange} />
+
             </fieldset>
-            <fieldset className={styles.fieldset}>
-              <div className={styles.Text}>SPECIFIC INSTRUCTIONS</div>
-              <Form.Control as="textarea" rows={3} placeholder="If any kindly mention.." name="specificInstructions" value={formData.specificInstructions} onChange={handleChange} />
-            </fieldset>
+            <div className={styles.fieldsetone}>Note :
+<span className={styles.Sym}> *</span> Required fields are mandatory.</div>
+            
           </div>
           <div className={styles.Cols}>
             <fieldset className={styles.fieldset}>
@@ -124,8 +125,13 @@ function MyForm() {
                 <Form.Check type="checkbox" label="Medical Queries" name="specialReport" value="Medical Queries" onChange={handleCheckboxChange} />
               </Form.Group>
             </fieldset>
-            {/* <div className={styles.Text}>Note :
-<span className={styles.Sym}> *</span> Required fields are mandatory.</div> */}
+            <fieldset className={styles.fieldset}>
+              <div className={styles.Text}>SPECIFIC INSTRUCTIONS</div>
+              <Col xs={12} md={8}> 
+              <Form.Control as="textarea" rows={3} placeholder="If any kindly mention.." name="specificInstructions" value={formData.specificInstructions} onChange={handleChange} />
+              </Col>
+            </fieldset>
+            
           </div>
         </div>
         <div className={styles.Bottom}>
