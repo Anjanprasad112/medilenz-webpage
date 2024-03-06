@@ -8,9 +8,10 @@
 }
 .Head{
     margin-top: 5px;
+    font-size: 32px;
 }
 .Title{
-    font-size: xx-large;
+
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
@@ -33,6 +34,7 @@
   font-style: normal;
   letter-spacing: normal;
   text-align: center;
+  font-size: 22px;
 }
 
 

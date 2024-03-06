@@ -23,6 +23,11 @@
     position: relative;
 
 }
+.Hover:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+  
 .BG1{
     position: absolute; 
     left: 0;
@@ -59,20 +64,43 @@
 } */
 .Text{
     padding : 20px 0px;
+    font-size: 32px;
+    color:black;
 }
 
 .Box{
     display: flex;
-    padding: 24px;
-
+    gap: 35px;
+    margin-bottom: 30px;
 }
+
 
 .ButtonContainer{
     margin: 20px;
+}
+.CardS{
+    width: 350px;
+}
+@media screen and (max-width: 768px){
+    .CardS{
+        width: 300px;
+    }
+    .Box{
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:468px){
+    .CardS{
+            width: 290px;
+    }
 }
 
 @media screen and (max-width:360px) {
     .Box{
         padding: 0px;
+    }
+    .CardS{
+        width: 285px;
     }
 }

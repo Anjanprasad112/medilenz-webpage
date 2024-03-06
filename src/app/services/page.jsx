@@ -8,7 +8,7 @@ const Service = () => {
     <div className={styles.Title}>
     <div className={styles.Container}></div>
     <div className={styles.Head}>Services</div>
-    <p className={styles.Para}>specialized Services in Medical Records Review & Medical Legal Research.</p>
+    <div className={styles.Para}>specialized Services in Medical Records Review & Medical Legal Research.</div>
   </div>
   <Services/>
     </>
