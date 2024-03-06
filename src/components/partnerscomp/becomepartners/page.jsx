@@ -13,7 +13,7 @@ const Part = () => {
   return (
     <div className={styles.container}>
       <div
-        className={`d-flex flex-wrap justify-content-center gap-4 align-items-center ${styles.Box}`}
+        className={`d-flex flex-wrap justify-content-center gap-3 align-items-center ${styles.Box}`}
       >
         {cards.map((card) => (
           <div key={card.id}>

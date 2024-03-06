@@ -10,7 +10,7 @@ const page = () => {
       <div className={styles.Title}>
         <div className={styles.Container}></div>
         <div className={styles.Head}>Become Partners</div>
-        <p className={styles.Para}>Preferential Partnership Models</p>
+        <div className={styles.Para}>Preferential Partnership Models</div>
       </div>
       <BecomePartners />
       <Force />
