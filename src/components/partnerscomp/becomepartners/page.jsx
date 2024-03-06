@@ -13,14 +13,14 @@ const Part = () => {
   return (
     <div className={styles.container}>
       <div
-        className={`d-flex flex-wrap justify-content-center gap-3 align-items-center ${styles.Box}`}
+        className={`d-flex flex-wrap justify-content-center gap-5 align-items-center ${styles.Box}`}
       >
         {cards.map((card) => (
           <div key={card.id}>
             <div
               className={`card py-1 flex flex-row justify-content-center align-items-center ${styles.Card}`}
               style={{
-                width: "20rem",
+                width: "35rem",
                 borderRadius: "16px",
                 background: "#fff",
                 boxShadow: "0 8px 30px 0 rgba(0, 0, 0, 0.1)",
@@ -31,10 +31,10 @@ const Part = () => {
 
               <div className={styles.Background} >
               <div className={styles.Img}>
-                  {card.icon === "rocket" && <FaRocket size={60} style={{color:"var(--bg"}}/>}
-                  {card.icon === "car" && <FaCar size={60} style={{color:"var(--bg"}}/>}
-                  {card.icon === "bike" && <FaBiking size={60} style={{color:"var(--bg"}}/>}
-                  {card.icon === "cycle" && <FaBicycle size={60} style={{color:"var(--bg"}}/>}
+                  {card.icon === "rocket" && <FaRocket size={70} style={{color:"var(--bg"}}/>}
+                  {card.icon === "car" && <FaCar size={70} style={{color:"var(--bg"}}/>}
+                  {card.icon === "bike" && <FaBiking size={70} style={{color:"var(--bg"}}/>}
+                  {card.icon === "cycle" && <FaBicycle size={70} style={{color:"var(--bg"}}/>}
                 </div>
                 </div>
                 
