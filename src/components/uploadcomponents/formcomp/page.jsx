@@ -124,8 +124,8 @@ function MyForm() {
                 <Form.Check type="checkbox" label="Medical Queries" name="specialReport" value="Medical Queries" onChange={handleCheckboxChange} />
               </Form.Group>
             </fieldset>
-            <div className={styles.Text}>Note :
-<span className={styles.Sym}> *</span> Required fields are mandatory.</div>
+            {/* <div className={styles.Text}>Note :
+<span className={styles.Sym}> *</span> Required fields are mandatory.</div> */}
           </div>
         </div>
         <div className={styles.Bottom}>
@@ -146,7 +146,7 @@ function MyForm() {
             </fieldset>
           </Col>
         </div>
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-center m-3" >
           <Button type="submit">Submit</Button>
         </div>
       </Form>

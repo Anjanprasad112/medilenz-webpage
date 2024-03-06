@@ -7,7 +7,7 @@ const Page = () => {
     <>
       <div className={styles.Title}>
         <div className={styles.Container}></div>
-        Upload File
+        <div className={styles.Header}>Upload File</div>
       </div>
       <Upload/>
       </>
