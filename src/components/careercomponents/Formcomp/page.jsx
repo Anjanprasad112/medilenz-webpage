@@ -11,36 +11,36 @@ const Form = () => {
         <form>
             <div className="row m-2">
                 <div className="col-md-6">
-                    <input type="text" className="form-control" placeholder="First Name" style={{backgroundColor: "white"}} />
+                    <input type="text" className="form-control form-control-lg" placeholder="First Name" style={{backgroundColor: "white"}} />
                 </div>
                 <div className="col-md-6">
-                    <input type="text" className="form-control" placeholder="Last Name" style={{backgroundColor: "white"}} />
+                    <input type="text" className="form-control form-control-lg" placeholder="Last Name" style={{backgroundColor: "white"}} />
                 </div>
             </div>
             <div className="row m-2">
                 <div className="col-md-6">
-                    <input type="text" className="form-control" placeholder="Phone Number" style={{backgroundColor: "white"}} />
+                    <input type="text" className="form-control form-control-lg" placeholder="Phone Number" style={{backgroundColor: "white"}} />
                 </div>
                 <div className="col-md-6">
-                    <input type="email" className="form-control" placeholder="Email ID" style={{backgroundColor: "white"}} />
+                    <input type="email" className="form-control form-control-lg" placeholder="Email ID" style={{backgroundColor: "white"}} />
                 </div>
             </div>
             <div className="row m-2">
                 <div className="col-md-6">
-                    <input type="text" className="form-control" placeholder="Qualification" style={{backgroundColor: "white"}} />
+                    <input type="text" className="form-control form-control-lg" placeholder="Qualification" style={{backgroundColor: "white"}} />
                 </div>
                 <div className="col-md-6">
-                    <input type="text" className="form-control" placeholder="Position Applying" style={{backgroundColor: "white"}} />
-                </div>
-            </div>
-            <div className="row m-2">
-                <div className="col-md-12">
-                    <input type='file' className="form-control" placeholder="Upload Your Resume (PDF or Word)" style={{backgroundColor: "white"}}/>
+                    <input type="text" className="form-control form-control-lg" placeholder="Position Applying" style={{backgroundColor: "white"}} />
                 </div>
             </div>
             <div className="row m-2">
                 <div className="col-md-12">
-                    <textarea className="form-control" placeholder="Write a message ?" style={{backgroundColor: "white"}}></textarea>
+                    <input type='file' className="form-control form-control-lg" placeholder="Upload Your Resume (PDF or Word)" style={{backgroundColor: "white"}}/>
+                </div>
+            </div>
+            <div className="row m-2">
+                <div className="col-md-12">
+                    <textarea className="form-control form-control-lg" placeholder="Write a message ?" style={{backgroundColor: "white"}}></textarea>
                 </div>
             </div>
             <div className="row text-center m-2">
