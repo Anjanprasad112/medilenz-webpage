@@ -8,11 +8,11 @@ import Form from "@/components/careercomponents/Formcomp/page";
 const Carrer = () => {
   return (
     <>
-      <div className={styles.Title}>
-        <div className={styles.Container}></div>
-        <div className={styles.Head}>Careers</div>
-        <p className={styles.Para}>Work with Medilenz and RECHARGE YOUR CAREER</p>
-      </div>
+    <div className={styles.Title}>
+    <div className={styles.Container}></div>
+    <div className={styles.Head}>Careers</div>
+    <div className={styles.Para}>Work with Medilenz and RECHARGE YOUR CAREER</div>
+  </div>
       <Top/>
       <Mid/>
       <Current/>

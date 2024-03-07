@@ -39,10 +39,8 @@
 
 
 @media screen and (max-width:568px){
-    .Title{
-        font-size: large;
-    }
+
     .Para{
-        font-size: small;
+        font-size: 16px;
     }
 }

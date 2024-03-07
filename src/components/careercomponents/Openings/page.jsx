@@ -42,14 +42,14 @@ const Current = () => {
                 <div className={styles.CompanyName}>{company.name}</div>
                 <div>
                   Posted on:{" "}
-                  <span className="text-primary">{company.date}</span>
+                  <span className="text-primary m-2">{company.date}</span>
                 </div>
                 <div>
                   Location:{" "}
-                  <span className="text-primary">{company.location}</span>
+                  <span className="text-primary m-2">{company.location}</span>
                 </div>
                 <div>{company.text}</div>
-                <div className="text-primary">View Job &#8594;</div>
+                <div className="text-primary m-2">View Job &#8594;</div>
               </div>
             </div>
           ))}

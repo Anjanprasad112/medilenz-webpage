@@ -1,19 +1,21 @@
 .ImageContainer{
     position: relative;
-    height:150px;
-    width: 60%;
+    height:180px;
+    width: 50%;
     
 }
 .Container{
-    padding : 5px 40px;
+    padding : 40px 0px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     gap: 20px;
+    width: 80%;
+    margin: auto;
 }
 .Img{
-    object-fit: cover;
+    object-fit: fill;
     border-radius: 16px;
 }
 .Title{
@@ -42,7 +44,8 @@
 @media screen and (max-width : 768px){
     .Container{
         flex-direction: column;
-        padding: 5px 20px;
+        width: 95%;
+        margin: auto;
     }
 }
 

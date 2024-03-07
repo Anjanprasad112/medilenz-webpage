@@ -43,7 +43,7 @@ const Form = () => {
                     <textarea className="form-control form-control-lg" placeholder="Write a message ?" style={{backgroundColor: "white"}}></textarea>
                 </div>
             </div>
-            <div className="row text-center m-2">
+            <div className="row text-center m-4">
                 <div className="col-md-12">
                     <button type="submit" className="btn btn-primary btn-block">Submit</button>
                 </div>

@@ -8,9 +8,10 @@
 }
 .Head{
     margin-top: 5px;
+    font-size: 32px;
 }
 .Title{
-    font-size: xx-large;
+
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
@@ -31,18 +32,17 @@
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
-  line-height: 3.13;
   letter-spacing: normal;
   text-align: center;
-  white-space: nowrap;
+  font-size: 20px;
 }
 
 
 @media screen and (max-width:568px){
-    .Title{
+    /* .Title{
         font-size: large;
-    }
+    } */
     .Para{
-        font-size: small;
+        font-size: 16px;
     }
 }
