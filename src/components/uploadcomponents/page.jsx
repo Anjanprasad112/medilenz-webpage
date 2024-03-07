@@ -6,7 +6,7 @@ const Page = () => {
   return (
     <div  className={ styles.Container}>
     <div className={styles.BG1}></div>
-    <div className={styles.BG2}></div>
+    {/* <div className={styles.BG2}></div> */}
     <Top/> 
     <MyForm/>
     </div>

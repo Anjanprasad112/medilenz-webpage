@@ -1,59 +1,58 @@
-.BG1{
-    position: absolute; 
+.BG1 {
+    position: absolute; /* Fixed position to cover the entire screen */
+    top: 0;
     left: 0;
     width: 100%;
-    height: 250%;
-    background-color: #f6f6f6;  
+    height: 105vw; /* 100% of viewport height */
+    background-color: #f6f6f6;
     opacity: 0.9;
     z-index: -1;
-    object-fit: cover;
 }
-.Container{
+
+.Container {
     width: 100%;
     height: 100%;
     overflow: hidden;
     margin-top: 3px;
 }
+
 .BG2 {
-    position: absolute;
-    /* top: 0;
-    left: 0; */
+    position: fixed; /* Fixed position to cover the entire screen */
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 250%;
+    height: 100vh; /* 100% of viewport height */
     background-image: url('/BG.jpg');
-    opacity: 0.09; 
-    z-index: -1;    
-    background-size: cover; 
+    opacity: 0.09;
+    z-index: -2; /* Set z-index to be below BG1 */
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-
-
+/* 
 @media screen and (max-width:840px) {
-    .BG1{
-        height: 300%;
+    .BG1 {
+        height: 300vh;
     }
-    .BG2{
-        height: 300%;
+    .BG2 {
+        height: 300vh;
     }
 }
 
 @media screen and (max-width:720px) {
-    .BG1{
-        height: 330%;
+    .BG1 {
+        height: 330vh;
     }
-    .BG2{
-        height: 330%;
+    .BG2 {
+        height: 330vh;
     }
 }
 
 @media screen and (max-width:600px) {
-    .BG1{
-        height: 500%;
+    .BG1 {
+        height: 500vh;
     }
-    .BG2{
-        height: 500%;
+    .BG2 {
+        height: 500vh;
     }
-}
-  
-
+} */
