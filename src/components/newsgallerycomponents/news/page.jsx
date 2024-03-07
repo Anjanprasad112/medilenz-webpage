@@ -16,7 +16,7 @@ const Service = () => {
       <div className={styles.BG2}></div>
 
       <div
-        className={`d-flex flex-wrap justify-content-center gap-4 align-items-center ${styles.Box}`}
+        className={`d-flex flex-wrap justify-content-center gap-5 align-items-center ${styles.Box}`}
       >
         {cards.map((card) => (
           <div key={card.id}>
