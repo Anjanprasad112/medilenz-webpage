@@ -40,19 +40,19 @@ const SubHeader = () => {
       </div>
       <div className={styles.Social}>
       <div className={styles.BoxContainer}>
-        <FaFacebookF className={styles.Icon} style={{color: "#fff"}}/>
+        <FaFacebookF className={styles.Icon} href="https://www.facebook.com/MedilenzServices" target="_blank" style={{color: "#fff"}}/>
       </div>
       <div className={styles.BoxContainer}>
-        <FaLinkedinIn className={styles.Icon} style={{color: "#fff"}}/>
+        <FaLinkedinIn className={styles.Icon} href="https://www.linkedin.com/company/medilenz-innovations-pvt-ltd/" target="_blank" style={{color: "#fff"}}/>
       </div>
       <div className={styles.BoxContainer}>
-        <FaInstagram className={styles.Icon} style={{color: "#fff"}}/>
+        <FaInstagram className={styles.Icon} href="https://www.instagram.com/medilenz_services/" target="_blank" style={{color: "#fff"}}/>
       </div>
       <div className={styles.BoxContainer}>
-        <FaXTwitter className={styles.Icon} style={{color: "#fff"}}/>
+        <FaXTwitter className={styles.Icon} href="https://twitter.com/MedilenzS34943" target="_blank" style={{color: "#fff"}}/>
       </div>
       <div className={styles.BoxContainer}>
-        <FaYoutube className={styles.Icon} style={{color: "#fff"}}/>
+        <FaYoutube className={styles.Icon} href="https://www.youtube.com/@medilenz5489" target="_blank" style={{color: "#fff"}}/>
       </div>
       </div>
     </div>

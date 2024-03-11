@@ -119,7 +119,7 @@ function Footer() {
                 <Link
                   className="btn btn-white btn-floating m-1"
                   // style={{ backgroundColor: "#3b5998" }}
-                  href="#!"
+                  href="https://www.facebook.com/MedilenzServices" target="_blank"
                 >
                   <FaFacebookF
                     style={{ color: "var(--bg)" }}
@@ -128,7 +128,7 @@ function Footer() {
                 <Link
                   className={`btn btn-white btn-floating m-1 ${styles.Logo}`}
                   // style={{ backgroundColor: "#55acee" }}
-                  href="#!"
+                  href="https://twitter.com/MedilenzS34943" target="_blank"
                 >
                   <FaXTwitter
                     style={{ color: "var(--bg)" }}
@@ -137,14 +137,14 @@ function Footer() {
                 <Link
                   className={`btn btn-white btn-floating m-1 ${styles.Logo}`}
                   // style={{ backgroundColor: "#dd4b39" }}
-                  href="#!"
+                  href="https://www.youtube.com/@medilenz5489" target="_blank"
                 >
                   <FaYoutube style={{ color: "var(--bg)" }} />
                 </Link>
                 <Link
                   className={`btn btn-white btn-floating m-1 ${styles.Logo}`}
                   // style={{ backgroundColor: "#ac2bac" }}
-                  href="#!"
+                  href="https://www.instagram.com/medilenz_services/" target="_blank"
                 >
                   <FaInstagram
                     style={{ color: "var(--bg)" }}
@@ -153,7 +153,7 @@ function Footer() {
                 <Link
                   className={`btn btn-white btn-floating m-1 ${styles.Logo}`}
                   // style={{ backgroundColor: "#0082ca" }}
-                  href="#"
+                  href="https://www.linkedin.com/company/medilenz-innovations-pvt-ltd/" target="_blank"
                 >
                   <FaLinkedinIn
                     style={{ color: "var(--bg)" }}
