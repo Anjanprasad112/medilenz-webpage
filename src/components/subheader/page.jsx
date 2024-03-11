@@ -6,6 +6,8 @@ import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
+import Link from "next/link";
+
 
 const SubHeader = () => {
   return (
@@ -39,24 +41,25 @@ const SubHeader = () => {
         </div>
       </div>
       <div className={styles.Social}>
-      <div className={styles.BoxContainer}>
-        <FaFacebookF className={styles.Icon} href="https://www.facebook.com/MedilenzServices" target="_blank" style={{color: "#fff"}}/>
-      </div>
-      <div className={styles.BoxContainer}>
-        <FaLinkedinIn className={styles.Icon} href="https://www.linkedin.com/company/medilenz-innovations-pvt-ltd/" target="_blank" style={{color: "#fff"}}/>
-      </div>
-      <div className={styles.BoxContainer}>
-        <FaInstagram className={styles.Icon} href="https://www.instagram.com/medilenz_services/" target="_blank" style={{color: "#fff"}}/>
-      </div>
-      <div className={styles.BoxContainer}>
-        <FaXTwitter className={styles.Icon} href="https://twitter.com/MedilenzS34943" target="_blank" style={{color: "#fff"}}/>
-      </div>
-      <div className={styles.BoxContainer}>
-        <FaYoutube className={styles.Icon} href="https://www.youtube.com/@medilenz5489" target="_blank" style={{color: "#fff"}}/>
-      </div>
+      <Link className={styles.BoxContainer} href="https://www.facebook.com/MedilenzServices" target="_blank">
+        <FaFacebookF className={styles.Icon} style={{color: "#fff"}}/>
+      </Link>
+      <Link className={styles.BoxContainer} href="https://www.linkedin.com/company/medilenz-innovations-pvt-ltd/" target="_blank">
+        <FaLinkedinIn className={styles.Icon}  style={{color: "#fff"}}/>
+      </Link>
+      <Link className={styles.BoxContainer } href="https://www.instagram.com/medilenz_services/" target="_blank">
+        <FaInstagram className={styles.Icon}  style={{color: "#fff"}}/>
+      </Link>
+      <Link className={styles.BoxContainer} href="https://twitter.com/MedilenzS34943" target="_blank">
+        <FaXTwitter className={styles.Icon} style={{color: "#fff"}}/>
+      </Link>
+      <Link className={styles.BoxContainer} href="https://www.youtube.com/@medilenz5489" target="_blank">
+        <FaYoutube className={styles.Icon} style={{color: "#fff"}}/>
+      </Link>
       </div>
     </div>
   );
 };
+
 
 export default SubHeader;
