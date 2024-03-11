@@ -5,8 +5,9 @@ const Force = () => {
   return (
     
     <div className={styles.Container}>
-        <div className={styles.Main}></div>
-        <div className={styles.BG}></div>
+        <div className={styles.Con}>
+        {/* <div className={styles.Main}></div>
+        <div className={styles.BG}></div> */}
         <div className={styles.Header}>Join forces with us</div>
         <form>
             <div className="row m-3">
@@ -36,6 +37,7 @@ const Force = () => {
                 </div>
             </div>
         </form>
+        </div>
     </div>
   )
 }

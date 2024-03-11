@@ -19,13 +19,7 @@ const Part = () => {
           <div key={card.id}>
             <div
               className={`card py-1 flex flex-row justify-content-center align-items-center ${styles.Card}`}
-              style={{
-                width: "35rem",
-                borderRadius: "16px",
-                background: "#fff",
-                boxShadow: "0 8px 30px 0 rgba(0, 0, 0, 0.1)",
-                border: "1.5px solid var(--bg)",
-              }}
+              
             >
              
 
