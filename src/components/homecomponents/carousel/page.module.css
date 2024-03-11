@@ -39,7 +39,7 @@
     z-index: 101;
   }
   .BTN{
-    margin: 15px;
+    margin: 20px;
   }
 
 
@@ -107,6 +107,9 @@
       margin-bottom: 10px;
       font-size: 16px;
       padding: 6px 10px;
+    }
+    .BTN{
+      margin: 14px;
     }
   }
   
