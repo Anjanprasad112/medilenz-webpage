@@ -1,7 +1,7 @@
 .Container {
   background-color: var(--text);
   width: 75%;
-  margin: 100px auto 30px auto;
+  margin: 120px auto 30px auto;
 }
 .VideoContainer {
   display: flex;
