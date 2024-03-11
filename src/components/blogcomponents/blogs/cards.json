@@ -3,40 +3,51 @@
       "id": 1,
       "imageSrc": "/Services_1.jpg",
       "title": "Medical Chronology",
-      "text": "Simplifying patient histories for informed healthcare decisions."
+      "text": "Simplifying patient histories for informed healthcare decisions.",
+      "date" : "14-Jan-2024"
     },
     {
       "id": 2,
       "imageSrc": "/Services_2.jpg",
       "title": "Medical Expert Services",
       
-      "text": "Unparalleled expertise for precise healthcare solutions."
+      "text": "Unparalleled expertise for precise healthcare solutions.",
+      "date" : "14-Jan-2024"
+
     },
     {
       "id": 3,
       "imageSrc": "/Services_3.jpeg",
       "title": "Para-Legal Services +",
      
-      "text": "Your legal support partner for streamlined solutions."
+      "text": "Your legal support partner for streamlined solutions.",
+      "date" : "14-Jan-2024"
+
     },
     {
       "id": 4,
       "imageSrc": "/Services_2.jpg",
       "title": "Life Care Plan",
-      "text": "Nurturing well-being through personalized and holistic care."
+      "text": "Nurturing well-being through personalized and holistic care.",
+      "date" : "14-Jan-2024"
+
     },
     {
       "id": 5,
       "imageSrc": "/Services_3.jpeg",
       "title": "Mass Tort Services",
 
-      "text": "Providing smart and effective legal assistance for class actions."
+      "text": "Providing smart and effective legal assistance for class actions.",
+      "date" : "14-Jan-2024"
+
     },
     {
       "id": 6,
       "imageSrc": "/Services_2.jpg",
       "title": "Special Reports",
-      "text": "Concise insights tailored for well informed decisions in healthcare."
+      "text": "Concise insights tailored for well informed decisions in healthcare.",
+      "date" : "14-Jan-2024"
+
     }
   ]
   
