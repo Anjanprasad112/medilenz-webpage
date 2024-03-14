@@ -6,6 +6,7 @@ import styles from "./page.module.css";
 import Image from "next/image";
 import { MdOutlineZoomIn } from "react-icons/md";
 import { MdOutlineZoomOut } from "react-icons/md";
+import Link from "next/link";
 
 const Page = () => {
   const pathname = usePathname();
@@ -13,7 +14,7 @@ const Page = () => {
   const blogId = arr[2];
   const selectedCard = CardData.find((card) => card.id === Number(blogId));
 
-  
+
   const [zoomedIn, setZoomedIn] = useState(false);
   const [zoomedInOne, setZoomedInOne] = useState(false);
 
@@ -112,6 +113,13 @@ const Page = () => {
                 </div>
               </div>
             </div>
+          </div>
+
+        <div className={styles.BTN}>
+          <Link href="/"className="btn btn-primary text-white my-3 text-center mx-auto">    
+            Go To Homepage
+        
+          </Link>
           </div>
         </>
       )}
