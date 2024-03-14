@@ -1,0 +1,178 @@
+.Container{
+    background-color: #fcfffc;
+}
+.SubContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    gap: 30px;
+    padding: 15px 0;
+}
+
+.Img{
+    border-radius: 18px;
+}
+.Top{
+    text-align: center;
+    background-color: rgba(13, 110, 253, 0.15);
+    font-size: 32px;
+    padding: 10px;
+    font-weight: 600;
+    
+}
+.ImgContainer{
+    position: relative;
+    width:65%;
+    height: 185px;
+    border-radius: 18px;
+
+}
+
+.TextContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150px;
+}
+.Title{
+    font-size: 32px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.92;
+    letter-spacing: normal;
+    color: #000;
+
+}
+.Text{
+    font-size:16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    color: #000;
+}
+
+/* box */
+.Box{
+    background-color: #f6f6f6;
+    padding: 20px 0;
+}
+.MScontainer{
+    border-radius: 18px;
+    box-shadow: 0 5px 30px 0 rgba(24, 114, 221, 0.2);
+    background-color: #fff;
+    width: 85%;
+    margin: 15px auto;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.ImgContain{
+    width: 200px;
+    height:300px;
+    position: relative;
+}
+.ImgReport{
+    position: relative;
+    width: 200px;
+    height: 300px;
+    transition: transform 0.3s ease;
+}
+.TextCon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.ImgCon{
+    border-radius: 12px;
+    box-shadow: 0 5px 30px 0 rgba(24, 114, 221, 0.2);
+    background-color: #fff;
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+}
+
+
+.MScontainertwo{
+    border-radius: 18px;
+    box-shadow: 0 5px 30px 0 rgba(24, 114, 221, 0.2);
+    background-color: #fff;
+    width: 85%;
+    margin: 15px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 15px;
+}
+
+.ZoomedIn {
+    transform: scale(2); 
+    z-index: 100;
+  }
+  .ZoomButton {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: transparent;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 14px;
+    z-index: 101;
+  }
+  
+
+@media screen and (max-width:1200px){
+    .SubContainer {
+        width: 95%;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (max-width:990px){
+    .SubContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    /* gap: 30px; */
+    padding: 15px 0;
+    }
+    .TextContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .Text{
+        font-size:16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    /* line-height: 1.63; */
+    letter-spacing: normal;
+    color: #000;
+    text-align: center;
+    }
+    .ImgContainer{
+        height:200px;
+        width:  80%;
+    border-radius: 18px;
+
+
+    }
+    .Title{
+        font-size: 28px;
+        line-height: 1.92;
+    }
+} 
