@@ -13,9 +13,9 @@ const Page = () => {
   const blogId = arr[2];
   const selectedCard = CardData.find((card) => card.id === Number(blogId));
 
+  
   const [zoomedIn, setZoomedIn] = useState(false);
   const [zoomedInOne, setZoomedInOne] = useState(false);
-
 
     const handleZoomClick = () => {
       setZoomedIn(!zoomedIn);

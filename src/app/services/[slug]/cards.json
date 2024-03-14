@@ -14,33 +14,53 @@
       "imageSrc": "/Services_2.jpg",
       "title": "Medical Expert Services",
       
-      "text": "Unparalleled expertise for precise healthcare solutions."
+      "whymedical": "Why Medical Summary ?",
+      "whysummary" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.",
+      "msum":"Medical Summaries",
+      "mtext":"Our highly skilled medical professionals narrate the events in chronological order, including all the vital/critical information and present it in an easily understandable manner.The summaries are prepared by our team of experienced medical professionals, with each summary tailored to various case types factoring all medical events.The medical events include both pre-existing and current injuries suffered by the patient. The main purpose is to provide attorneys with clear and crisp information on the medical aspects involved,thus facilitating appropriate actions on their part.",
+      "preport" : "/Preport.jpg"
     },
     {
       "id": 3,
       "imageSrc": "/Services_3.jpeg",
       "title": "Para-Legal Services +",
      
-      "text": "Your legal support partner for streamlined solutions."
+      "whymedical": "Why Medical Summary ?",
+      "whysummary" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.",
+      "msum":"Medical Summaries",
+      "mtext":"Our highly skilled medical professionals narrate the events in chronological order, including all the vital/critical information and present it in an easily understandable manner.The summaries are prepared by our team of experienced medical professionals, with each summary tailored to various case types factoring all medical events.The medical events include both pre-existing and current injuries suffered by the patient. The main purpose is to provide attorneys with clear and crisp information on the medical aspects involved,thus facilitating appropriate actions on their part.",
+      "preport" : "/Preport.jpg"
     },
     {
       "id": 4,
       "imageSrc": "/Services_2.jpg",
       "title": "Life Care Plan",
-      "text": "Nurturing well-being through personalized and holistic care."
+      "whymedical": "Why Medical Summary ?",
+      "whysummary" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.",
+      "msum":"Medical Summaries",
+      "mtext":"Our highly skilled medical professionals narrate the events in chronological order, including all the vital/critical information and present it in an easily understandable manner.The summaries are prepared by our team of experienced medical professionals, with each summary tailored to various case types factoring all medical events.The medical events include both pre-existing and current injuries suffered by the patient. The main purpose is to provide attorneys with clear and crisp information on the medical aspects involved,thus facilitating appropriate actions on their part.",
+      "preport" : "/Preport.jpg"
     },
     {
       "id": 5,
       "imageSrc": "/Services_3.jpeg",
       "title": "Mass Tort Services",
 
-      "text": "Providing smart and effective legal assistance for class actions."
+      "whymedical": "Why Medical Summary ?",
+      "whysummary" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.",
+      "msum":"Medical Summaries",
+      "mtext":"Our highly skilled medical professionals narrate the events in chronological order, including all the vital/critical information and present it in an easily understandable manner.The summaries are prepared by our team of experienced medical professionals, with each summary tailored to various case types factoring all medical events.The medical events include both pre-existing and current injuries suffered by the patient. The main purpose is to provide attorneys with clear and crisp information on the medical aspects involved,thus facilitating appropriate actions on their part.",
+      "preport" : "/Preport.jpg"
     },
     {
       "id": 6,
       "imageSrc": "/Services_2.jpg",
       "title": "Special Reports",
-      "text": "Concise insights tailored for well informed decisions in healthcare."
+      "whymedical": "Why Medical Summary ?",
+      "whysummary" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.",
+      "msum":"Medical Summaries",
+      "mtext":"Our highly skilled medical professionals narrate the events in chronological order, including all the vital/critical information and present it in an easily understandable manner.The summaries are prepared by our team of experienced medical professionals, with each summary tailored to various case types factoring all medical events.The medical events include both pre-existing and current injuries suffered by the patient. The main purpose is to provide attorneys with clear and crisp information on the medical aspects involved,thus facilitating appropriate actions on their part.",
+      "preport" : "/Preport.jpg"
     }
   ]
   
