@@ -53,6 +53,7 @@
     padding: 5px;
     color: #fff;
     text-align: center;
+    width: 100%;
 }
 
 @media screen and (max-width: 768px){
@@ -64,13 +65,13 @@
         width: 90%;
     }
     .BG1,.BG2{
-        height: 45%;
+        height: 65%;
     }
 }
 
 @media screen and (max-width:455px) {
     .BG1,.BG2{
-        height: 51%;
+        height:60%;
     }
     .Text{
         width: 95%;
